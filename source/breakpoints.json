@@ -1,0 +1,24 @@
+{
+  "breakpoint": {
+    "sm": {
+      "$type": "float",
+      "$value": 640
+    },
+    "md": {
+      "$type": "float",
+      "$value": 768
+    },
+    "lg": {
+      "$type": "float",
+      "$value": 1024
+    },
+    "xl": {
+      "$type": "float",
+      "$value": 1280
+    },
+    "2xl": {
+      "$type": "float",
+      "$value": 1536
+    }
+  }
+}

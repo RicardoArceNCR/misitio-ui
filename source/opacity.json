@@ -1,0 +1,40 @@
+{
+  "opacity": {
+    "ghost": {
+      "$type": "float",
+      "$value": 0.04
+    },
+    "hairline": {
+      "$type": "float",
+      "$value": 0.08
+    },
+    "subtle": {
+      "$type": "float",
+      "$value": 0.16
+    },
+    "mid": {
+      "$type": "float",
+      "$value": 0.42
+    },
+    "soft": {
+      "$type": "float",
+      "$value": 0.5
+    },
+    "medium": {
+      "$type": "float",
+      "$value": 0.6
+    },
+    "strong": {
+      "$type": "float",
+      "$value": 0.72
+    },
+    "high": {
+      "$type": "float",
+      "$value": 0.8
+    },
+    "full": {
+      "$type": "float",
+      "$value": 1
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "figma-sync",
+  "version": "0.1.0",
+  "description": "Fase 0/1 del pipeline DOM -> Figma. Paquete Node propio, con sus deps aparte de las del design system que lo contiene: playwright no tiene por que instalarse para buildear tokens.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build-token-map": "node scripts/build-token-map.mjs",
+    "extract": "node extractor/run.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  }
+}

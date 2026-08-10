@@ -1,0 +1,104 @@
+<style>
+  body {
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 16px;
+    color: #1a1a1a;
+  }
+  h2 {
+    font-size: 13px;
+    margin: 0 0 4px;
+  }
+  p.hint {
+    color: #666;
+    margin: 0 0 16px;
+  }
+  input[type="file"] {
+    display: block;
+    margin-bottom: 12px;
+  }
+  .status {
+    white-space: pre-wrap;
+    line-height: 1.5;
+  }
+  .status strong {
+    display: block;
+    margin-top: 8px;
+  }
+  pre {
+    background: #f5f5f5;
+    padding: 8px;
+    border-radius: 4px;
+    max-height: 160px;
+    overflow: auto;
+    font-size: 11px;
+  }
+</style>
+
+<h2>figma-sync (vaca)</h2>
+<p class="hint">
+  Cargá el JSON que generó <code>extractor/run.mjs</code> (Fase 1), un archivo por vez.
+  Cada import se apila automáticamente DEBAJO de lo último importado en esta página de
+  Figma (cambio 2026-08-05) -- para reconstruir la página completa en el mismo orden real
+  del scroll, cargá los JSON en este orden: <code>hero</code> &rarr;
+  <code>niveles</code> &rarr; <code>niveles-tarjetas</code> &rarr;
+  <code>manifiesto</code> &rarr; <code>transparencia</code> &rarr; <code>faq</code>. Si es
+  tu primera vez con el plugin, probá solo <code>transparencia.json</code>
+  primero -- menos nodos, más fácil de verificar uno por uno.
+</p>
+<input type="file" id="file" accept="application/json" />
+<div id="status" class="status">Esperando un archivo...</div>
+
+<script>
+  const fileInput = document.getElementById("file");
+  const status = document.getElementById("status");
+
+  fileInput.addEventListener("change", async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    let tree;
+    try {
+      tree = JSON.parse(await file.text());
+    } catch (err) {
+      status.textContent = "JSON inválido: " + err.message;
+      return;
+    }
+
+    status.textContent = "Importando...";
+    parent.postMessage({ pluginMessage: { type: "import", tree } }, "*");
+  });
+
+  onmessage = (event) => {
+    const msg = event.data.pluginMessage;
+    if (!msg) return;
+
+    if (msg.type === "done") {
+      const r = msg.report;
+      const notFoundBlock = r.notFoundInFigma.length
+        ? `<pre>${r.notFoundInFigma.join("\n")}</pre>`
+        : "";
+      const skippedBlock = r.skippedByDesign.length
+        ? `<pre>${r.skippedByDesign.join("\n")}</pre>`
+        : "";
+      const collisionsBlock =
+        r.nameCollisions && r.nameCollisions.length
+          ? `<pre>${r.nameCollisions.join("\n")}</pre>`
+          : "";
+      status.innerHTML =
+        `Listo.<br>` +
+        `<strong>${r.bound} bind aplicados</strong> (fills/strokes/radius/fontSize ligados a variables reales).<br>` +
+        `<strong>${r.skippedByDesign.length} omitidos a propósito</strong> (shadow, padding/gap sin Auto Layout, line-height, fuente no disponible):` +
+        skippedBlock +
+        `<strong>${r.notFoundInFigma.length} variables NO encontradas</strong> en este archivo de Figma (nombre no coincide con el token-map):` +
+        notFoundBlock +
+        (r.nameCollisions && r.nameCollisions.length
+          ? `<strong>${r.nameCollisions.length} nombres de variable duplicados entre colecciones</strong> (una pisó a la otra):` +
+            collisionsBlock
+          : "");
+    } else if (msg.type === "error") {
+      status.textContent = "Error: " + msg.message;
+    }
+  };
+</script>

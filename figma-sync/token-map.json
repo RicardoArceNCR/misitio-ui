@@ -1,0 +1,3223 @@
+{
+  "byCssVar": {
+    "--color-neutral-50": {
+      "figmaName": "color/neutral/50",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-neutral-100": {
+      "figmaName": "color/neutral/100",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-neutral-200": {
+      "figmaName": "color/neutral/200",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-neutral-300": {
+      "figmaName": "color/neutral/300",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-neutral-400": {
+      "figmaName": "color/neutral/400",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-neutral-500": {
+      "figmaName": "color/neutral/500",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-neutral-600": {
+      "figmaName": "color/neutral/600",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-neutral-700": {
+      "figmaName": "color/neutral/700",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-neutral-800": {
+      "figmaName": "color/neutral/800",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-neutral-900": {
+      "figmaName": "color/neutral/900",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-neutral-950": {
+      "figmaName": "color/neutral/950",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-white": {
+      "figmaName": "color/white",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-black": {
+      "figmaName": "color/black",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-accent-50": {
+      "figmaName": "color/accent/50",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-accent-100": {
+      "figmaName": "color/accent/100",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-accent-200": {
+      "figmaName": "color/accent/200",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-accent-300": {
+      "figmaName": "color/accent/300",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-accent-400": {
+      "figmaName": "color/accent/400",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-accent-500": {
+      "figmaName": "color/accent/500",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-accent-600": {
+      "figmaName": "color/accent/600",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-accent-700": {
+      "figmaName": "color/accent/700",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-accent-800": {
+      "figmaName": "color/accent/800",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-accent-900": {
+      "figmaName": "color/accent/900",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-accent-950": {
+      "figmaName": "color/accent/950",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-main-50": {
+      "figmaName": "color/main/50",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-main-100": {
+      "figmaName": "color/main/100",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-main-200": {
+      "figmaName": "color/main/200",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-main-300": {
+      "figmaName": "color/main/300",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-main-400": {
+      "figmaName": "color/main/400",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-main-500": {
+      "figmaName": "color/main/500",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-main-600": {
+      "figmaName": "color/main/600",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-main-700": {
+      "figmaName": "color/main/700",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-main-800": {
+      "figmaName": "color/main/800",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-main-900": {
+      "figmaName": "color/main/900",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-main-950": {
+      "figmaName": "color/main/950",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-info-50": {
+      "figmaName": "color/info/50",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-info-100": {
+      "figmaName": "color/info/100",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-info-200": {
+      "figmaName": "color/info/200",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-info-300": {
+      "figmaName": "color/info/300",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-info-400": {
+      "figmaName": "color/info/400",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-info-500": {
+      "figmaName": "color/info/500",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-info-600": {
+      "figmaName": "color/info/600",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-info-700": {
+      "figmaName": "color/info/700",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-info-800": {
+      "figmaName": "color/info/800",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-info-900": {
+      "figmaName": "color/info/900",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-info-950": {
+      "figmaName": "color/info/950",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-leaf-50": {
+      "figmaName": "color/leaf/50",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-leaf-100": {
+      "figmaName": "color/leaf/100",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-leaf-200": {
+      "figmaName": "color/leaf/200",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-leaf-300": {
+      "figmaName": "color/leaf/300",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-leaf-400": {
+      "figmaName": "color/leaf/400",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-leaf-500": {
+      "figmaName": "color/leaf/500",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-leaf-600": {
+      "figmaName": "color/leaf/600",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-leaf-700": {
+      "figmaName": "color/leaf/700",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-leaf-800": {
+      "figmaName": "color/leaf/800",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-leaf-900": {
+      "figmaName": "color/leaf/900",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-leaf-950": {
+      "figmaName": "color/leaf/950",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-amarillo-50": {
+      "figmaName": "color/amarillo/50",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-amarillo-100": {
+      "figmaName": "color/amarillo/100",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-amarillo-200": {
+      "figmaName": "color/amarillo/200",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-amarillo-300": {
+      "figmaName": "color/amarillo/300",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-amarillo-400": {
+      "figmaName": "color/amarillo/400",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-amarillo-500": {
+      "figmaName": "color/amarillo/500",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-amarillo-600": {
+      "figmaName": "color/amarillo/600",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-amarillo-700": {
+      "figmaName": "color/amarillo/700",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-amarillo-800": {
+      "figmaName": "color/amarillo/800",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-amarillo-900": {
+      "figmaName": "color/amarillo/900",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-amarillo-950": {
+      "figmaName": "color/amarillo/950",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-gold-50": {
+      "figmaName": "color/gold/50",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-gold-100": {
+      "figmaName": "color/gold/100",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-gold-200": {
+      "figmaName": "color/gold/200",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-gold-300": {
+      "figmaName": "color/gold/300",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-gold-400": {
+      "figmaName": "color/gold/400",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-gold-500": {
+      "figmaName": "color/gold/500",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-gold-600": {
+      "figmaName": "color/gold/600",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-gold-700": {
+      "figmaName": "color/gold/700",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-gold-800": {
+      "figmaName": "color/gold/800",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-gold-900": {
+      "figmaName": "color/gold/900",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-gold-950": {
+      "figmaName": "color/gold/950",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-ink-50": {
+      "figmaName": "color/ink/50",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-ink-100": {
+      "figmaName": "color/ink/100",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-ink-200": {
+      "figmaName": "color/ink/200",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-ink-300": {
+      "figmaName": "color/ink/300",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-ink-400": {
+      "figmaName": "color/ink/400",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-ink-500": {
+      "figmaName": "color/ink/500",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-ink-600": {
+      "figmaName": "color/ink/600",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-ink-700": {
+      "figmaName": "color/ink/700",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-ink-800": {
+      "figmaName": "color/ink/800",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-ink-900": {
+      "figmaName": "color/ink/900",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--color-ink-950": {
+      "figmaName": "color/ink/950",
+      "collection": "primitivos",
+      "type": "color"
+    },
+    "--typography-size-2xs": {
+      "figmaName": "typography/size/2xs",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--typography-size-xs": {
+      "figmaName": "typography/size/xs",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--typography-size-sm": {
+      "figmaName": "typography/size/sm",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--typography-size-md": {
+      "figmaName": "typography/size/md",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--typography-size-lg": {
+      "figmaName": "typography/size/lg",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--typography-size-xl": {
+      "figmaName": "typography/size/xl",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--typography-size-2xl": {
+      "figmaName": "typography/size/2xl",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--typography-size-3xl": {
+      "figmaName": "typography/size/3xl",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--typography-size-4xl": {
+      "figmaName": "typography/size/4xl",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--typography-size-5xl": {
+      "figmaName": "typography/size/5xl",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--typography-size-6xl": {
+      "figmaName": "typography/size/6xl",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--typography-size-7xl": {
+      "figmaName": "typography/size/7xl",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--typography-size-8xl": {
+      "figmaName": "typography/size/8xl",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--typography-weight-regular": {
+      "figmaName": "typography/weight/regular",
+      "collection": "primitivos",
+      "type": "float"
+    },
+    "--typography-weight-medium": {
+      "figmaName": "typography/weight/medium",
+      "collection": "primitivos",
+      "type": "float"
+    },
+    "--typography-weight-semibold": {
+      "figmaName": "typography/weight/semibold",
+      "collection": "primitivos",
+      "type": "float"
+    },
+    "--typography-weight-bold": {
+      "figmaName": "typography/weight/bold",
+      "collection": "primitivos",
+      "type": "float"
+    },
+    "--typography-weight-extrabold": {
+      "figmaName": "typography/weight/extrabold",
+      "collection": "primitivos",
+      "type": "float"
+    },
+    "--typography-leading-tight": {
+      "figmaName": "typography/leading/tight",
+      "collection": "primitivos",
+      "type": "float"
+    },
+    "--typography-leading-snug": {
+      "figmaName": "typography/leading/snug",
+      "collection": "primitivos",
+      "type": "float"
+    },
+    "--typography-leading-normal": {
+      "figmaName": "typography/leading/normal",
+      "collection": "primitivos",
+      "type": "float"
+    },
+    "--typography-leading-relaxed": {
+      "figmaName": "typography/leading/relaxed",
+      "collection": "primitivos",
+      "type": "float"
+    },
+    "--typography-leading-loose": {
+      "figmaName": "typography/leading/loose",
+      "collection": "primitivos",
+      "type": "float"
+    },
+    "--typography-tracking-tight": {
+      "figmaName": "typography/tracking/tight",
+      "collection": "primitivos",
+      "type": "float"
+    },
+    "--typography-tracking-normal": {
+      "figmaName": "typography/tracking/normal",
+      "collection": "primitivos",
+      "type": "float"
+    },
+    "--typography-tracking-wide": {
+      "figmaName": "typography/tracking/wide",
+      "collection": "primitivos",
+      "type": "float"
+    },
+    "--typography-tracking-wider": {
+      "figmaName": "typography/tracking/wider",
+      "collection": "primitivos",
+      "type": "float"
+    },
+    "--typography-tracking-caps": {
+      "figmaName": "typography/tracking/caps",
+      "collection": "primitivos",
+      "type": "float"
+    },
+    "--radius-none": {
+      "figmaName": "radius/none",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--radius-xs": {
+      "figmaName": "radius/xs",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--radius-sm": {
+      "figmaName": "radius/sm",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--radius-md": {
+      "figmaName": "radius/md",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--radius-lg": {
+      "figmaName": "radius/lg",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--radius-xl": {
+      "figmaName": "radius/xl",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--radius-2xl": {
+      "figmaName": "radius/2xl",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--radius-full": {
+      "figmaName": "radius/full",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--border-width-none": {
+      "figmaName": "border-width/none",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--border-width-sm": {
+      "figmaName": "border-width/sm",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--border-width-md": {
+      "figmaName": "border-width/md",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--border-width-lg": {
+      "figmaName": "border-width/lg",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--border-width-xl": {
+      "figmaName": "border-width/xl",
+      "collection": "primitivos",
+      "type": "dimension"
+    },
+    "--background-page": {
+      "figmaName": "background/page",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--background-base": {
+      "figmaName": "background/base",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--background-subtle": {
+      "figmaName": "background/subtle",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--background-strong": {
+      "figmaName": "background/strong",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--surface-base": {
+      "figmaName": "surface/base",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--surface-raised": {
+      "figmaName": "surface/raised",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--surface-container": {
+      "figmaName": "surface/container",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--surface-subtle": {
+      "figmaName": "surface/subtle",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--surface-inverse": {
+      "figmaName": "surface/inverse",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--surface-inverse-subtle": {
+      "figmaName": "surface/inverse-subtle",
+      "collection": "semanticos",
+      "type": "string"
+    },
+    "--surface-accent-bg": {
+      "figmaName": "surface/accent-bg",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--surface-accent-text": {
+      "figmaName": "surface/accent-text",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--surface-accent-border": {
+      "figmaName": "surface/accent-border",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--surface-ink": {
+      "figmaName": "surface/ink",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--text-primary": {
+      "figmaName": "text/primary",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--text-secondary": {
+      "figmaName": "text/secondary",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--text-tertiary": {
+      "figmaName": "text/tertiary",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--text-disabled": {
+      "figmaName": "text/disabled",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--text-inverse": {
+      "figmaName": "text/inverse",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--text-brand": {
+      "figmaName": "text/brand",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--text-on-brand": {
+      "figmaName": "text/on-brand",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--text-inverse-secondary": {
+      "figmaName": "text/inverse-secondary",
+      "collection": "semanticos",
+      "type": "string"
+    },
+    "--text-brand-accent": {
+      "figmaName": "text/brand-accent",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--text-on-ink": {
+      "figmaName": "text/on-ink",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--border-default": {
+      "figmaName": "border/default",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--border-subtle": {
+      "figmaName": "border/subtle",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--border-strong": {
+      "figmaName": "border/strong",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--border-brand": {
+      "figmaName": "border/brand",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--border-inverse": {
+      "figmaName": "border/inverse",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--border-inverse-subtle": {
+      "figmaName": "border/inverse-subtle",
+      "collection": "semanticos",
+      "type": "string"
+    },
+    "--brand-main": {
+      "figmaName": "brand/main",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--brand-subtle": {
+      "figmaName": "brand/subtle",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--brand-strong": {
+      "figmaName": "brand/strong",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--brand-action": {
+      "figmaName": "brand/action",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--brand-action-hover": {
+      "figmaName": "brand/action-hover",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--brand-action-press": {
+      "figmaName": "brand/action-press",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--brand-gold": {
+      "figmaName": "brand/gold",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--brand-leaf": {
+      "figmaName": "brand/leaf",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--brand-sky": {
+      "figmaName": "brand/sky",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--brand-font-display": {
+      "figmaName": "brand/font-display",
+      "collection": "semanticos",
+      "type": "string"
+    },
+    "--brand-font-body": {
+      "figmaName": "brand/font-body",
+      "collection": "semanticos",
+      "type": "string"
+    },
+    "--brand-font-mono": {
+      "figmaName": "brand/font-mono",
+      "collection": "semanticos",
+      "type": "string"
+    },
+    "--feedback-success-bg": {
+      "figmaName": "feedback/success/bg",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--feedback-success-border": {
+      "figmaName": "feedback/success/border",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--feedback-success-text": {
+      "figmaName": "feedback/success/text",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--feedback-success-icon": {
+      "figmaName": "feedback/success/icon",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--feedback-warning-bg": {
+      "figmaName": "feedback/warning/bg",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--feedback-warning-border": {
+      "figmaName": "feedback/warning/border",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--feedback-warning-text": {
+      "figmaName": "feedback/warning/text",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--feedback-warning-icon": {
+      "figmaName": "feedback/warning/icon",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--feedback-error-bg": {
+      "figmaName": "feedback/error/bg",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--feedback-error-border": {
+      "figmaName": "feedback/error/border",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--feedback-error-text": {
+      "figmaName": "feedback/error/text",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--feedback-error-icon": {
+      "figmaName": "feedback/error/icon",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--feedback-info-bg": {
+      "figmaName": "feedback/info/bg",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--feedback-info-border": {
+      "figmaName": "feedback/info/border",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--feedback-info-text": {
+      "figmaName": "feedback/info/text",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--feedback-info-icon": {
+      "figmaName": "feedback/info/icon",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--focus-ring-color": {
+      "figmaName": "focus/ring-color",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--focus-ring-offset": {
+      "figmaName": "focus/ring-offset",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--interaction-hover-overlay": {
+      "figmaName": "interaction/hover-overlay",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--interaction-active-overlay": {
+      "figmaName": "interaction/active-overlay",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--interaction-link-default": {
+      "figmaName": "interaction/link/default",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--interaction-link-hover": {
+      "figmaName": "interaction/link/hover",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--interaction-link-visited": {
+      "figmaName": "interaction/link/visited",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--overlay-modal": {
+      "figmaName": "overlay/modal",
+      "collection": "semanticos",
+      "type": "string"
+    },
+    "--overlay-card": {
+      "figmaName": "overlay/card",
+      "collection": "semanticos",
+      "type": "string"
+    },
+    "--overlay-hero": {
+      "figmaName": "overlay/hero",
+      "collection": "semanticos",
+      "type": "string"
+    },
+    "--divider-default": {
+      "figmaName": "divider/default",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--divider-strong": {
+      "figmaName": "divider/strong",
+      "collection": "semanticos",
+      "type": "color"
+    },
+    "--typography-heading-size": {
+      "figmaName": "typography/heading/size",
+      "collection": "semanticos",
+      "type": "float"
+    },
+    "--typography-heading-family": {
+      "figmaName": "typography/heading/family",
+      "collection": "semanticos",
+      "type": "string"
+    },
+    "--typography-subheading-size": {
+      "figmaName": "typography/subheading/size",
+      "collection": "semanticos",
+      "type": "float"
+    },
+    "--typography-body-size": {
+      "figmaName": "typography/body/size",
+      "collection": "semanticos",
+      "type": "float"
+    },
+    "--typography-body-family": {
+      "figmaName": "typography/body/family",
+      "collection": "semanticos",
+      "type": "string"
+    },
+    "--typography-label-size": {
+      "figmaName": "typography/label/size",
+      "collection": "semanticos",
+      "type": "float"
+    },
+    "--typography-caption-size": {
+      "figmaName": "typography/caption/size",
+      "collection": "semanticos",
+      "type": "float"
+    },
+    "--typography-hero-size": {
+      "figmaName": "typography/hero/size",
+      "collection": "semanticos",
+      "type": "float"
+    },
+    "--button-primary-bg": {
+      "figmaName": "button/primary/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-primary-bg-hover": {
+      "figmaName": "button/primary/bg-hover",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-primary-bg-press": {
+      "figmaName": "button/primary/bg-press",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-primary-text": {
+      "figmaName": "button/primary/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-primary-border": {
+      "figmaName": "button/primary/border",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-secondary-bg": {
+      "figmaName": "button/secondary/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-secondary-bg-hover": {
+      "figmaName": "button/secondary/bg-hover",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-secondary-text": {
+      "figmaName": "button/secondary/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-secondary-border": {
+      "figmaName": "button/secondary/border",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-secondary-bg-press": {
+      "figmaName": "button/secondary/bg-press",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-ghost-bg": {
+      "figmaName": "button/ghost/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-ghost-bg-hover": {
+      "figmaName": "button/ghost/bg-hover",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-ghost-text": {
+      "figmaName": "button/ghost/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-ghost-bg-press": {
+      "figmaName": "button/ghost/bg-press",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-ghost-border": {
+      "figmaName": "button/ghost/border",
+      "collection": "componentes",
+      "type": "string"
+    },
+    "--button-danger-bg": {
+      "figmaName": "button/danger/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-danger-bg-hover": {
+      "figmaName": "button/danger/bg-hover",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-danger-text": {
+      "figmaName": "button/danger/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-danger-bg-press": {
+      "figmaName": "button/danger/bg-press",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-danger-border": {
+      "figmaName": "button/danger/border",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-disabled-bg": {
+      "figmaName": "button/disabled/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-disabled-text": {
+      "figmaName": "button/disabled/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-disabled-border": {
+      "figmaName": "button/disabled/border",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--button-size-sm-height": {
+      "figmaName": "button/size/sm/height",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--button-size-sm-padding-x": {
+      "figmaName": "button/size/sm/padding-x",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--button-size-md-height": {
+      "figmaName": "button/size/md/height",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--button-size-md-padding-x": {
+      "figmaName": "button/size/md/padding-x",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--button-size-lg-height": {
+      "figmaName": "button/size/lg/height",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--button-size-lg-padding-x": {
+      "figmaName": "button/size/lg/padding-x",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--button-radius": {
+      "figmaName": "button/radius",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--input-bg": {
+      "figmaName": "input/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--input-bg-focus": {
+      "figmaName": "input/bg-focus",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--input-bg-disabled": {
+      "figmaName": "input/bg-disabled",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--input-border": {
+      "figmaName": "input/border",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--input-border-focus": {
+      "figmaName": "input/border-focus",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--input-border-error": {
+      "figmaName": "input/border-error",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--input-border-success": {
+      "figmaName": "input/border-success",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--input-text": {
+      "figmaName": "input/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--input-placeholder": {
+      "figmaName": "input/placeholder",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--input-label": {
+      "figmaName": "input/label",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--input-radius": {
+      "figmaName": "input/radius",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--input-padding-x": {
+      "figmaName": "input/padding-x",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--input-padding-y": {
+      "figmaName": "input/padding-y",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--input-border-hover": {
+      "figmaName": "input/border-hover",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--input-border-disabled": {
+      "figmaName": "input/border-disabled",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--input-text-disabled": {
+      "figmaName": "input/text-disabled",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--card-bg": {
+      "figmaName": "card/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--card-border": {
+      "figmaName": "card/border",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--card-text": {
+      "figmaName": "card/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--card-radius": {
+      "figmaName": "card/radius",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--card-padding": {
+      "figmaName": "card/padding",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--card-bg-hover": {
+      "figmaName": "card/bg-hover",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--card-border-hover": {
+      "figmaName": "card/border-hover",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--card-shadow": {
+      "figmaName": "card/shadow",
+      "collection": "componentes",
+      "type": "string"
+    },
+    "--nav-bg": {
+      "figmaName": "nav/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--nav-border": {
+      "figmaName": "nav/border",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--nav-item-default": {
+      "figmaName": "nav/item/default",
+      "collection": "componentes",
+      "type": "string"
+    },
+    "--nav-item-active": {
+      "figmaName": "nav/item/active",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--nav-item-hover": {
+      "figmaName": "nav/item/hover",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--nav-height": {
+      "figmaName": "nav/height",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--nav-logo-text": {
+      "figmaName": "nav/logo/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--nav-logo-accent": {
+      "figmaName": "nav/logo/accent",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--modal-bg": {
+      "figmaName": "modal/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--modal-border": {
+      "figmaName": "modal/border",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--modal-text": {
+      "figmaName": "modal/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--modal-overlay": {
+      "figmaName": "modal/overlay",
+      "collection": "componentes",
+      "type": "string"
+    },
+    "--modal-radius": {
+      "figmaName": "modal/radius",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--modal-shadow": {
+      "figmaName": "modal/shadow",
+      "collection": "componentes",
+      "type": "string"
+    },
+    "--pill-base-bg": {
+      "figmaName": "pill/base/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--pill-base-text": {
+      "figmaName": "pill/base/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--pill-base-border": {
+      "figmaName": "pill/base/border",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--pill-brand-bg": {
+      "figmaName": "pill/brand/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--pill-brand-text": {
+      "figmaName": "pill/brand/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--pill-success-bg": {
+      "figmaName": "pill/success/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--pill-success-text": {
+      "figmaName": "pill/success/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--pill-warning-bg": {
+      "figmaName": "pill/warning/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--pill-warning-text": {
+      "figmaName": "pill/warning/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--pill-error-bg": {
+      "figmaName": "pill/error/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--pill-error-text": {
+      "figmaName": "pill/error/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--pill-radius": {
+      "figmaName": "pill/radius",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--pill-sm-padding-x": {
+      "figmaName": "pill/sm/padding-x",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--pill-md-padding-x": {
+      "figmaName": "pill/md/padding-x",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--pill-filter-bg": {
+      "figmaName": "pill/filter/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--pill-filter-bg-active": {
+      "figmaName": "pill/filter/bg-active",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--pill-filter-border": {
+      "figmaName": "pill/filter/border",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--pill-filter-text": {
+      "figmaName": "pill/filter/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--pill-filter-text-active": {
+      "figmaName": "pill/filter/text-active",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--toast-bg": {
+      "figmaName": "toast/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--toast-border": {
+      "figmaName": "toast/border",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--toast-text": {
+      "figmaName": "toast/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--toast-radius": {
+      "figmaName": "toast/radius",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--toast-shadow": {
+      "figmaName": "toast/shadow",
+      "collection": "componentes",
+      "type": "string"
+    },
+    "--tooltip-bg": {
+      "figmaName": "tooltip/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--tooltip-text": {
+      "figmaName": "tooltip/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--tooltip-radius": {
+      "figmaName": "tooltip/radius",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--tooltip-shadow": {
+      "figmaName": "tooltip/shadow",
+      "collection": "componentes",
+      "type": "string"
+    },
+    "--avatar-bg": {
+      "figmaName": "avatar/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--avatar-text": {
+      "figmaName": "avatar/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--avatar-border": {
+      "figmaName": "avatar/border",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--avatar-size-sm": {
+      "figmaName": "avatar/size/sm",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--avatar-size-md": {
+      "figmaName": "avatar/size/md",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--avatar-size-lg": {
+      "figmaName": "avatar/size/lg",
+      "collection": "componentes",
+      "type": "dimension"
+    },
+    "--hero-text": {
+      "figmaName": "hero/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--hero-bg": {
+      "figmaName": "hero/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--process-circle-bg": {
+      "figmaName": "process/circle-bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--strip-bg": {
+      "figmaName": "strip/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--footer-bg": {
+      "figmaName": "footer/bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--footer-social-icon-bg": {
+      "figmaName": "footer/social-icon-bg",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--footer-border": {
+      "figmaName": "footer/border",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--footer-heading": {
+      "figmaName": "footer/heading",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--footer-legal-text": {
+      "figmaName": "footer/legal-text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--footer-link-hover": {
+      "figmaName": "footer/link-hover",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--footer-text": {
+      "figmaName": "footer/text",
+      "collection": "componentes",
+      "type": "color"
+    },
+    "--spacing-0": {
+      "figmaName": "spacing/0",
+      "collection": "spacing",
+      "type": "dimension"
+    },
+    "--spacing-1": {
+      "figmaName": "spacing/1",
+      "collection": "spacing",
+      "type": "dimension"
+    },
+    "--spacing-2": {
+      "figmaName": "spacing/2",
+      "collection": "spacing",
+      "type": "dimension"
+    },
+    "--spacing-3": {
+      "figmaName": "spacing/3",
+      "collection": "spacing",
+      "type": "dimension"
+    },
+    "--spacing-4": {
+      "figmaName": "spacing/4",
+      "collection": "spacing",
+      "type": "dimension"
+    },
+    "--spacing-5": {
+      "figmaName": "spacing/5",
+      "collection": "spacing",
+      "type": "dimension"
+    },
+    "--spacing-6": {
+      "figmaName": "spacing/6",
+      "collection": "spacing",
+      "type": "dimension"
+    },
+    "--spacing-8": {
+      "figmaName": "spacing/8",
+      "collection": "spacing",
+      "type": "dimension"
+    },
+    "--spacing-10": {
+      "figmaName": "spacing/10",
+      "collection": "spacing",
+      "type": "dimension"
+    },
+    "--spacing-12": {
+      "figmaName": "spacing/12",
+      "collection": "spacing",
+      "type": "dimension"
+    },
+    "--spacing-16": {
+      "figmaName": "spacing/16",
+      "collection": "spacing",
+      "type": "dimension"
+    },
+    "--spacing-20": {
+      "figmaName": "spacing/20",
+      "collection": "spacing",
+      "type": "dimension"
+    },
+    "--spacing-24": {
+      "figmaName": "spacing/24",
+      "collection": "spacing",
+      "type": "dimension"
+    },
+    "--typography-styles-display-hero-size": {
+      "figmaName": "typography/styles/display/hero/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-display-hero-line-height": {
+      "figmaName": "typography/styles/display/hero/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-display-hero-letter-spacing": {
+      "figmaName": "typography/styles/display/hero/letter-spacing",
+      "collection": "tipografia",
+      "type": "float"
+    },
+    "--typography-styles-display-xl-size": {
+      "figmaName": "typography/styles/display/xl/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-display-xl-line-height": {
+      "figmaName": "typography/styles/display/xl/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-display-xl-letter-spacing": {
+      "figmaName": "typography/styles/display/xl/letter-spacing",
+      "collection": "tipografia",
+      "type": "float"
+    },
+    "--typography-styles-display-lg-size": {
+      "figmaName": "typography/styles/display/lg/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-display-lg-line-height": {
+      "figmaName": "typography/styles/display/lg/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-display-lg-letter-spacing": {
+      "figmaName": "typography/styles/display/lg/letter-spacing",
+      "collection": "tipografia",
+      "type": "float"
+    },
+    "--typography-styles-display-md-size": {
+      "figmaName": "typography/styles/display/md/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-display-md-line-height": {
+      "figmaName": "typography/styles/display/md/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-display-md-letter-spacing": {
+      "figmaName": "typography/styles/display/md/letter-spacing",
+      "collection": "tipografia",
+      "type": "float"
+    },
+    "--typography-styles-display-sm-size": {
+      "figmaName": "typography/styles/display/sm/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-display-sm-line-height": {
+      "figmaName": "typography/styles/display/sm/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-display-sm-letter-spacing": {
+      "figmaName": "typography/styles/display/sm/letter-spacing",
+      "collection": "tipografia",
+      "type": "float"
+    },
+    "--typography-styles-heading-h1-size": {
+      "figmaName": "typography/styles/heading/h1/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-heading-h1-line-height": {
+      "figmaName": "typography/styles/heading/h1/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-heading-h1-letter-spacing": {
+      "figmaName": "typography/styles/heading/h1/letter-spacing",
+      "collection": "tipografia",
+      "type": "float"
+    },
+    "--typography-styles-heading-h2-size": {
+      "figmaName": "typography/styles/heading/h2/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-heading-h2-line-height": {
+      "figmaName": "typography/styles/heading/h2/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-heading-h3-size": {
+      "figmaName": "typography/styles/heading/h3/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-heading-h3-line-height": {
+      "figmaName": "typography/styles/heading/h3/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-heading-h4-size": {
+      "figmaName": "typography/styles/heading/h4/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-heading-h4-line-height": {
+      "figmaName": "typography/styles/heading/h4/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-heading-h5-size": {
+      "figmaName": "typography/styles/heading/h5/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-heading-h5-line-height": {
+      "figmaName": "typography/styles/heading/h5/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-body-lg-size": {
+      "figmaName": "typography/styles/body/lg/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-body-lg-line-height": {
+      "figmaName": "typography/styles/body/lg/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-body-md-size": {
+      "figmaName": "typography/styles/body/md/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-body-md-line-height": {
+      "figmaName": "typography/styles/body/md/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-body-sm-size": {
+      "figmaName": "typography/styles/body/sm/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-body-sm-line-height": {
+      "figmaName": "typography/styles/body/sm/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-body-xs-size": {
+      "figmaName": "typography/styles/body/xs/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-body-xs-line-height": {
+      "figmaName": "typography/styles/body/xs/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-body-lg-bold-size": {
+      "figmaName": "typography/styles/body/lg-bold/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-body-lg-bold-line-height": {
+      "figmaName": "typography/styles/body/lg-bold/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-body-md-bold-size": {
+      "figmaName": "typography/styles/body/md-bold/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-body-md-bold-line-height": {
+      "figmaName": "typography/styles/body/md-bold/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-body-sm-bold-size": {
+      "figmaName": "typography/styles/body/sm-bold/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-body-sm-bold-line-height": {
+      "figmaName": "typography/styles/body/sm-bold/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-label-lg-size": {
+      "figmaName": "typography/styles/label/lg/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-label-lg-line-height": {
+      "figmaName": "typography/styles/label/lg/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-label-lg-letter-spacing": {
+      "figmaName": "typography/styles/label/lg/letter-spacing",
+      "collection": "tipografia",
+      "type": "float"
+    },
+    "--typography-styles-label-md-size": {
+      "figmaName": "typography/styles/label/md/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-label-md-line-height": {
+      "figmaName": "typography/styles/label/md/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-label-md-letter-spacing": {
+      "figmaName": "typography/styles/label/md/letter-spacing",
+      "collection": "tipografia",
+      "type": "float"
+    },
+    "--typography-styles-label-sm-size": {
+      "figmaName": "typography/styles/label/sm/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-label-sm-line-height": {
+      "figmaName": "typography/styles/label/sm/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-label-sm-letter-spacing": {
+      "figmaName": "typography/styles/label/sm/letter-spacing",
+      "collection": "tipografia",
+      "type": "float"
+    },
+    "--typography-styles-label-xs-size": {
+      "figmaName": "typography/styles/label/xs/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-label-xs-line-height": {
+      "figmaName": "typography/styles/label/xs/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-label-xs-letter-spacing": {
+      "figmaName": "typography/styles/label/xs/letter-spacing",
+      "collection": "tipografia",
+      "type": "float"
+    },
+    "--typography-styles-overline-lg-size": {
+      "figmaName": "typography/styles/overline/lg/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-overline-lg-line-height": {
+      "figmaName": "typography/styles/overline/lg/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-overline-lg-letter-spacing": {
+      "figmaName": "typography/styles/overline/lg/letter-spacing",
+      "collection": "tipografia",
+      "type": "float"
+    },
+    "--typography-styles-overline-sm-size": {
+      "figmaName": "typography/styles/overline/sm/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-overline-sm-line-height": {
+      "figmaName": "typography/styles/overline/sm/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-overline-sm-letter-spacing": {
+      "figmaName": "typography/styles/overline/sm/letter-spacing",
+      "collection": "tipografia",
+      "type": "float"
+    },
+    "--typography-styles-code-md-size": {
+      "figmaName": "typography/styles/code/md/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-code-md-line-height": {
+      "figmaName": "typography/styles/code/md/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-code-sm-size": {
+      "figmaName": "typography/styles/code/sm/size",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--typography-styles-code-sm-line-height": {
+      "figmaName": "typography/styles/code/sm/line-height",
+      "collection": "tipografia",
+      "type": "dimension"
+    },
+    "--shadow-sm": {
+      "figmaName": "shadow/sm",
+      "collection": "shadow",
+      "type": "string"
+    },
+    "--shadow-md": {
+      "figmaName": "shadow/md",
+      "collection": "shadow",
+      "type": "string"
+    },
+    "--shadow-lg": {
+      "figmaName": "shadow/lg",
+      "collection": "shadow",
+      "type": "string"
+    },
+    "--shadow-sm-dark": {
+      "figmaName": "shadow/sm-dark",
+      "collection": "shadow",
+      "type": "string"
+    },
+    "--shadow-md-dark": {
+      "figmaName": "shadow/md-dark",
+      "collection": "shadow",
+      "type": "string"
+    },
+    "--shadow-lg-dark": {
+      "figmaName": "shadow/lg-dark",
+      "collection": "shadow",
+      "type": "string"
+    },
+    "--z-index-dropdown": {
+      "figmaName": "z-index/dropdown",
+      "collection": "z-index",
+      "type": "float"
+    },
+    "--z-index-sticky": {
+      "figmaName": "z-index/sticky",
+      "collection": "z-index",
+      "type": "float"
+    },
+    "--z-index-overlay": {
+      "figmaName": "z-index/overlay",
+      "collection": "z-index",
+      "type": "float"
+    },
+    "--z-index-modal": {
+      "figmaName": "z-index/modal",
+      "collection": "z-index",
+      "type": "float"
+    },
+    "--z-index-toast": {
+      "figmaName": "z-index/toast",
+      "collection": "z-index",
+      "type": "float"
+    },
+    "--z-index-tooltip": {
+      "figmaName": "z-index/tooltip",
+      "collection": "z-index",
+      "type": "float"
+    }
+  },
+  "byCssVarDark": {
+    "--background-page": {
+      "figmaName": "background/page",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--background-base": {
+      "figmaName": "background/base",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--background-subtle": {
+      "figmaName": "background/subtle",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--background-strong": {
+      "figmaName": "background/strong",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--surface-base": {
+      "figmaName": "surface/base",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--surface-raised": {
+      "figmaName": "surface/raised",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--surface-container": {
+      "figmaName": "surface/container",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--surface-subtle": {
+      "figmaName": "surface/subtle",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--surface-inverse": {
+      "figmaName": "surface/inverse",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--surface-inverse-subtle": {
+      "figmaName": "surface/inverse-subtle",
+      "collection": "semanticos-dark",
+      "type": "string"
+    },
+    "--surface-accent-bg": {
+      "figmaName": "surface/accent-bg",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--surface-accent-text": {
+      "figmaName": "surface/accent-text",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--surface-accent-border": {
+      "figmaName": "surface/accent-border",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--surface-ink": {
+      "figmaName": "surface/ink",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--text-primary": {
+      "figmaName": "text/primary",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--text-secondary": {
+      "figmaName": "text/secondary",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--text-tertiary": {
+      "figmaName": "text/tertiary",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--text-disabled": {
+      "figmaName": "text/disabled",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--text-inverse": {
+      "figmaName": "text/inverse",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--text-brand": {
+      "figmaName": "text/brand",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--text-on-brand": {
+      "figmaName": "text/on-brand",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--text-inverse-secondary": {
+      "figmaName": "text/inverse-secondary",
+      "collection": "semanticos-dark",
+      "type": "string"
+    },
+    "--text-brand-accent": {
+      "figmaName": "text/brand-accent",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--text-on-ink": {
+      "figmaName": "text/on-ink",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--border-default": {
+      "figmaName": "border/default",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--border-subtle": {
+      "figmaName": "border/subtle",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--border-strong": {
+      "figmaName": "border/strong",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--border-brand": {
+      "figmaName": "border/brand",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--border-inverse": {
+      "figmaName": "border/inverse",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--border-inverse-subtle": {
+      "figmaName": "border/inverse-subtle",
+      "collection": "semanticos-dark",
+      "type": "string"
+    },
+    "--brand-main": {
+      "figmaName": "brand/main",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--brand-subtle": {
+      "figmaName": "brand/subtle",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--brand-strong": {
+      "figmaName": "brand/strong",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--brand-action": {
+      "figmaName": "brand/action",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--brand-action-hover": {
+      "figmaName": "brand/action-hover",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--brand-action-press": {
+      "figmaName": "brand/action-press",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--brand-gold": {
+      "figmaName": "brand/gold",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--brand-leaf": {
+      "figmaName": "brand/leaf",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--brand-sky": {
+      "figmaName": "brand/sky",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--feedback-success-bg": {
+      "figmaName": "feedback/success/bg",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--feedback-success-border": {
+      "figmaName": "feedback/success/border",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--feedback-success-text": {
+      "figmaName": "feedback/success/text",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--feedback-success-icon": {
+      "figmaName": "feedback/success/icon",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--feedback-warning-bg": {
+      "figmaName": "feedback/warning/bg",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--feedback-warning-border": {
+      "figmaName": "feedback/warning/border",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--feedback-warning-text": {
+      "figmaName": "feedback/warning/text",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--feedback-warning-icon": {
+      "figmaName": "feedback/warning/icon",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--feedback-error-bg": {
+      "figmaName": "feedback/error/bg",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--feedback-error-border": {
+      "figmaName": "feedback/error/border",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--feedback-error-text": {
+      "figmaName": "feedback/error/text",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--feedback-error-icon": {
+      "figmaName": "feedback/error/icon",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--feedback-info-bg": {
+      "figmaName": "feedback/info/bg",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--feedback-info-border": {
+      "figmaName": "feedback/info/border",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--feedback-info-text": {
+      "figmaName": "feedback/info/text",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--feedback-info-icon": {
+      "figmaName": "feedback/info/icon",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--focus-ring-color": {
+      "figmaName": "focus/ring-color",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--focus-ring-offset": {
+      "figmaName": "focus/ring-offset",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--interaction-hover-overlay": {
+      "figmaName": "interaction/hover-overlay",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--interaction-active-overlay": {
+      "figmaName": "interaction/active-overlay",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--interaction-link-default": {
+      "figmaName": "interaction/link/default",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--interaction-link-hover": {
+      "figmaName": "interaction/link/hover",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--interaction-link-visited": {
+      "figmaName": "interaction/link/visited",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--overlay-modal": {
+      "figmaName": "overlay/modal",
+      "collection": "semanticos-dark",
+      "type": "string"
+    },
+    "--overlay-card": {
+      "figmaName": "overlay/card",
+      "collection": "semanticos-dark",
+      "type": "string"
+    },
+    "--overlay-hero": {
+      "figmaName": "overlay/hero",
+      "collection": "semanticos-dark",
+      "type": "string"
+    },
+    "--divider-default": {
+      "figmaName": "divider/default",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--divider-strong": {
+      "figmaName": "divider/strong",
+      "collection": "semanticos-dark",
+      "type": "color"
+    },
+    "--typography-heading-size": {
+      "figmaName": "typography/heading/size",
+      "collection": "semanticos-dark",
+      "type": "float"
+    },
+    "--typography-heading-family": {
+      "figmaName": "typography/heading/family",
+      "collection": "semanticos-dark",
+      "type": "string"
+    },
+    "--typography-subheading-size": {
+      "figmaName": "typography/subheading/size",
+      "collection": "semanticos-dark",
+      "type": "float"
+    },
+    "--typography-body-size": {
+      "figmaName": "typography/body/size",
+      "collection": "semanticos-dark",
+      "type": "float"
+    },
+    "--typography-body-family": {
+      "figmaName": "typography/body/family",
+      "collection": "semanticos-dark",
+      "type": "string"
+    },
+    "--typography-label-size": {
+      "figmaName": "typography/label/size",
+      "collection": "semanticos-dark",
+      "type": "float"
+    },
+    "--typography-caption-size": {
+      "figmaName": "typography/caption/size",
+      "collection": "semanticos-dark",
+      "type": "float"
+    },
+    "--typography-hero-size": {
+      "figmaName": "typography/hero/size",
+      "collection": "semanticos-dark",
+      "type": "float"
+    },
+    "--button-primary-bg": {
+      "figmaName": "button/primary/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-primary-bg-hover": {
+      "figmaName": "button/primary/bg-hover",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-primary-bg-press": {
+      "figmaName": "button/primary/bg-press",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-primary-text": {
+      "figmaName": "button/primary/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-primary-border": {
+      "figmaName": "button/primary/border",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-secondary-bg": {
+      "figmaName": "button/secondary/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-secondary-bg-hover": {
+      "figmaName": "button/secondary/bg-hover",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-secondary-text": {
+      "figmaName": "button/secondary/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-secondary-border": {
+      "figmaName": "button/secondary/border",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-secondary-bg-press": {
+      "figmaName": "button/secondary/bg-press",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-ghost-bg": {
+      "figmaName": "button/ghost/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-ghost-bg-hover": {
+      "figmaName": "button/ghost/bg-hover",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-ghost-text": {
+      "figmaName": "button/ghost/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-ghost-bg-press": {
+      "figmaName": "button/ghost/bg-press",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-ghost-border": {
+      "figmaName": "button/ghost/border",
+      "collection": "componentes-dark",
+      "type": "string"
+    },
+    "--button-danger-bg": {
+      "figmaName": "button/danger/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-danger-bg-hover": {
+      "figmaName": "button/danger/bg-hover",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-danger-text": {
+      "figmaName": "button/danger/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-danger-bg-press": {
+      "figmaName": "button/danger/bg-press",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-danger-border": {
+      "figmaName": "button/danger/border",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-disabled-bg": {
+      "figmaName": "button/disabled/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-disabled-text": {
+      "figmaName": "button/disabled/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-disabled-border": {
+      "figmaName": "button/disabled/border",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--button-size-sm-height": {
+      "figmaName": "button/size/sm/height",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--button-size-sm-padding-x": {
+      "figmaName": "button/size/sm/padding-x",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--button-size-md-height": {
+      "figmaName": "button/size/md/height",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--button-size-md-padding-x": {
+      "figmaName": "button/size/md/padding-x",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--button-size-lg-height": {
+      "figmaName": "button/size/lg/height",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--button-size-lg-padding-x": {
+      "figmaName": "button/size/lg/padding-x",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--button-radius": {
+      "figmaName": "button/radius",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--input-bg": {
+      "figmaName": "input/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--input-bg-focus": {
+      "figmaName": "input/bg-focus",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--input-bg-disabled": {
+      "figmaName": "input/bg-disabled",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--input-border": {
+      "figmaName": "input/border",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--input-border-focus": {
+      "figmaName": "input/border-focus",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--input-border-error": {
+      "figmaName": "input/border-error",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--input-border-success": {
+      "figmaName": "input/border-success",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--input-text": {
+      "figmaName": "input/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--input-placeholder": {
+      "figmaName": "input/placeholder",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--input-label": {
+      "figmaName": "input/label",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--input-radius": {
+      "figmaName": "input/radius",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--input-padding-x": {
+      "figmaName": "input/padding-x",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--input-padding-y": {
+      "figmaName": "input/padding-y",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--input-border-hover": {
+      "figmaName": "input/border-hover",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--input-border-disabled": {
+      "figmaName": "input/border-disabled",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--input-text-disabled": {
+      "figmaName": "input/text-disabled",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--card-bg": {
+      "figmaName": "card/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--card-border": {
+      "figmaName": "card/border",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--card-text": {
+      "figmaName": "card/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--card-radius": {
+      "figmaName": "card/radius",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--card-padding": {
+      "figmaName": "card/padding",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--card-bg-hover": {
+      "figmaName": "card/bg-hover",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--card-border-hover": {
+      "figmaName": "card/border-hover",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--card-shadow": {
+      "figmaName": "card/shadow",
+      "collection": "componentes-dark",
+      "type": "string"
+    },
+    "--nav-bg": {
+      "figmaName": "nav/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--nav-border": {
+      "figmaName": "nav/border",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--nav-item-default": {
+      "figmaName": "nav/item/default",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--nav-item-active": {
+      "figmaName": "nav/item/active",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--nav-item-hover": {
+      "figmaName": "nav/item/hover",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--nav-height": {
+      "figmaName": "nav/height",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--nav-logo-text": {
+      "figmaName": "nav/logo/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--nav-logo-accent": {
+      "figmaName": "nav/logo/accent",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--modal-bg": {
+      "figmaName": "modal/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--modal-border": {
+      "figmaName": "modal/border",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--modal-text": {
+      "figmaName": "modal/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--modal-overlay": {
+      "figmaName": "modal/overlay",
+      "collection": "componentes-dark",
+      "type": "string"
+    },
+    "--modal-radius": {
+      "figmaName": "modal/radius",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--modal-shadow": {
+      "figmaName": "modal/shadow",
+      "collection": "componentes-dark",
+      "type": "string"
+    },
+    "--pill-base-bg": {
+      "figmaName": "pill/base/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--pill-base-text": {
+      "figmaName": "pill/base/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--pill-base-border": {
+      "figmaName": "pill/base/border",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--pill-brand-bg": {
+      "figmaName": "pill/brand/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--pill-brand-text": {
+      "figmaName": "pill/brand/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--pill-success-bg": {
+      "figmaName": "pill/success/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--pill-success-text": {
+      "figmaName": "pill/success/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--pill-warning-bg": {
+      "figmaName": "pill/warning/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--pill-warning-text": {
+      "figmaName": "pill/warning/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--pill-error-bg": {
+      "figmaName": "pill/error/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--pill-error-text": {
+      "figmaName": "pill/error/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--pill-radius": {
+      "figmaName": "pill/radius",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--pill-sm-padding-x": {
+      "figmaName": "pill/sm/padding-x",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--pill-md-padding-x": {
+      "figmaName": "pill/md/padding-x",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--pill-filter-bg": {
+      "figmaName": "pill/filter/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--pill-filter-bg-active": {
+      "figmaName": "pill/filter/bg-active",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--pill-filter-border": {
+      "figmaName": "pill/filter/border",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--pill-filter-text": {
+      "figmaName": "pill/filter/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--pill-filter-text-active": {
+      "figmaName": "pill/filter/text-active",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--toast-bg": {
+      "figmaName": "toast/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--toast-border": {
+      "figmaName": "toast/border",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--toast-text": {
+      "figmaName": "toast/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--toast-radius": {
+      "figmaName": "toast/radius",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--toast-shadow": {
+      "figmaName": "toast/shadow",
+      "collection": "componentes-dark",
+      "type": "string"
+    },
+    "--tooltip-bg": {
+      "figmaName": "tooltip/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--tooltip-text": {
+      "figmaName": "tooltip/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--tooltip-radius": {
+      "figmaName": "tooltip/radius",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--tooltip-shadow": {
+      "figmaName": "tooltip/shadow",
+      "collection": "componentes-dark",
+      "type": "string"
+    },
+    "--avatar-bg": {
+      "figmaName": "avatar/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--avatar-text": {
+      "figmaName": "avatar/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--avatar-border": {
+      "figmaName": "avatar/border",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--avatar-size-sm": {
+      "figmaName": "avatar/size/sm",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--avatar-size-md": {
+      "figmaName": "avatar/size/md",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--avatar-size-lg": {
+      "figmaName": "avatar/size/lg",
+      "collection": "componentes-dark",
+      "type": "dimension"
+    },
+    "--hero-text": {
+      "figmaName": "hero/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--hero-bg": {
+      "figmaName": "hero/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--process-circle-bg": {
+      "figmaName": "process/circle-bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--strip-bg": {
+      "figmaName": "strip/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--footer-bg": {
+      "figmaName": "footer/bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--footer-social-icon-bg": {
+      "figmaName": "footer/social-icon-bg",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--footer-text": {
+      "figmaName": "footer/text",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--footer-link-hover": {
+      "figmaName": "footer/link-hover",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--footer-border": {
+      "figmaName": "footer/border",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--footer-heading": {
+      "figmaName": "footer/heading",
+      "collection": "componentes-dark",
+      "type": "color"
+    },
+    "--footer-legal-text": {
+      "figmaName": "footer/legal-text",
+      "collection": "componentes-dark",
+      "type": "color"
+    }
+  },
+  "byTailwindTypographyClass": {
+    "text-display-hero": {
+      "size": {
+        "cssVar": "--typography-styles-display-hero-size",
+        "figmaName": "typography/styles/display/hero/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-display-hero-line-height",
+        "figmaName": "typography/styles/display/hero/line-height"
+      }
+    },
+    "text-display-xl": {
+      "size": {
+        "cssVar": "--typography-styles-display-xl-size",
+        "figmaName": "typography/styles/display/xl/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-display-xl-line-height",
+        "figmaName": "typography/styles/display/xl/line-height"
+      }
+    },
+    "text-display-lg": {
+      "size": {
+        "cssVar": "--typography-styles-display-lg-size",
+        "figmaName": "typography/styles/display/lg/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-display-lg-line-height",
+        "figmaName": "typography/styles/display/lg/line-height"
+      }
+    },
+    "text-display-md": {
+      "size": {
+        "cssVar": "--typography-styles-display-md-size",
+        "figmaName": "typography/styles/display/md/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-display-md-line-height",
+        "figmaName": "typography/styles/display/md/line-height"
+      }
+    },
+    "text-display-sm": {
+      "size": {
+        "cssVar": "--typography-styles-display-sm-size",
+        "figmaName": "typography/styles/display/sm/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-display-sm-line-height",
+        "figmaName": "typography/styles/display/sm/line-height"
+      }
+    },
+    "text-h1": {
+      "size": {
+        "cssVar": "--typography-styles-heading-h1-size",
+        "figmaName": "typography/styles/heading/h1/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-heading-h1-line-height",
+        "figmaName": "typography/styles/heading/h1/line-height"
+      }
+    },
+    "text-h2": {
+      "size": {
+        "cssVar": "--typography-styles-heading-h2-size",
+        "figmaName": "typography/styles/heading/h2/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-heading-h2-line-height",
+        "figmaName": "typography/styles/heading/h2/line-height"
+      }
+    },
+    "text-h3": {
+      "size": {
+        "cssVar": "--typography-styles-heading-h3-size",
+        "figmaName": "typography/styles/heading/h3/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-heading-h3-line-height",
+        "figmaName": "typography/styles/heading/h3/line-height"
+      }
+    },
+    "text-h4": {
+      "size": {
+        "cssVar": "--typography-styles-heading-h4-size",
+        "figmaName": "typography/styles/heading/h4/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-heading-h4-line-height",
+        "figmaName": "typography/styles/heading/h4/line-height"
+      }
+    },
+    "text-h5": {
+      "size": {
+        "cssVar": "--typography-styles-heading-h5-size",
+        "figmaName": "typography/styles/heading/h5/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-heading-h5-line-height",
+        "figmaName": "typography/styles/heading/h5/line-height"
+      }
+    },
+    "text-body-lg": {
+      "size": {
+        "cssVar": "--typography-styles-body-lg-size",
+        "figmaName": "typography/styles/body/lg/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-body-lg-line-height",
+        "figmaName": "typography/styles/body/lg/line-height"
+      }
+    },
+    "text-body-md": {
+      "size": {
+        "cssVar": "--typography-styles-body-md-size",
+        "figmaName": "typography/styles/body/md/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-body-md-line-height",
+        "figmaName": "typography/styles/body/md/line-height"
+      }
+    },
+    "text-body-sm": {
+      "size": {
+        "cssVar": "--typography-styles-body-sm-size",
+        "figmaName": "typography/styles/body/sm/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-body-sm-line-height",
+        "figmaName": "typography/styles/body/sm/line-height"
+      }
+    },
+    "text-body-xs": {
+      "size": {
+        "cssVar": "--typography-styles-body-xs-size",
+        "figmaName": "typography/styles/body/xs/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-body-xs-line-height",
+        "figmaName": "typography/styles/body/xs/line-height"
+      }
+    },
+    "text-body-lg-bold": {
+      "size": {
+        "cssVar": "--typography-styles-body-lg-bold-size",
+        "figmaName": "typography/styles/body/lg-bold/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-body-lg-bold-line-height",
+        "figmaName": "typography/styles/body/lg-bold/line-height"
+      }
+    },
+    "text-body-md-bold": {
+      "size": {
+        "cssVar": "--typography-styles-body-md-bold-size",
+        "figmaName": "typography/styles/body/md-bold/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-body-md-bold-line-height",
+        "figmaName": "typography/styles/body/md-bold/line-height"
+      }
+    },
+    "text-body-sm-bold": {
+      "size": {
+        "cssVar": "--typography-styles-body-sm-bold-size",
+        "figmaName": "typography/styles/body/sm-bold/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-body-sm-bold-line-height",
+        "figmaName": "typography/styles/body/sm-bold/line-height"
+      }
+    },
+    "text-label-lg": {
+      "size": {
+        "cssVar": "--typography-styles-label-lg-size",
+        "figmaName": "typography/styles/label/lg/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-label-lg-line-height",
+        "figmaName": "typography/styles/label/lg/line-height"
+      }
+    },
+    "text-label-md": {
+      "size": {
+        "cssVar": "--typography-styles-label-md-size",
+        "figmaName": "typography/styles/label/md/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-label-md-line-height",
+        "figmaName": "typography/styles/label/md/line-height"
+      }
+    },
+    "text-label-sm": {
+      "size": {
+        "cssVar": "--typography-styles-label-sm-size",
+        "figmaName": "typography/styles/label/sm/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-label-sm-line-height",
+        "figmaName": "typography/styles/label/sm/line-height"
+      }
+    },
+    "text-label-xs": {
+      "size": {
+        "cssVar": "--typography-styles-label-xs-size",
+        "figmaName": "typography/styles/label/xs/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-label-xs-line-height",
+        "figmaName": "typography/styles/label/xs/line-height"
+      }
+    },
+    "text-overline-lg": {
+      "size": {
+        "cssVar": "--typography-styles-overline-lg-size",
+        "figmaName": "typography/styles/overline/lg/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-overline-lg-line-height",
+        "figmaName": "typography/styles/overline/lg/line-height"
+      }
+    },
+    "text-overline-sm": {
+      "size": {
+        "cssVar": "--typography-styles-overline-sm-size",
+        "figmaName": "typography/styles/overline/sm/size"
+      },
+      "lineHeight": {
+        "cssVar": "--typography-styles-overline-sm-line-height",
+        "figmaName": "typography/styles/overline/sm/line-height"
+      }
+    }
+  }
+}

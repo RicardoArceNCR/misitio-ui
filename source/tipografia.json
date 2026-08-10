@@ -1,0 +1,316 @@
+{
+  "typography": {
+    "styles": {
+      "display": {
+        "hero": {
+          "size": {
+            "$type": "dimension",
+            "$value": "104px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "109.2px"
+          },
+          "letter-spacing": {
+            "$type": "float",
+            "$value": -3.12
+          }
+        },
+        "xl": {
+          "size": {
+            "$type": "dimension",
+            "$value": "64px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "67.2px"
+          },
+          "letter-spacing": {
+            "$type": "float",
+            "$value": -1.92
+          }
+        },
+        "lg": {
+          "size": {
+            "$type": "dimension",
+            "$value": "48px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "50.4px"
+          },
+          "letter-spacing": {
+            "$type": "float",
+            "$value": -0.96
+          }
+        },
+        "md": {
+          "size": {
+            "$type": "dimension",
+            "$value": "40px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "50px"
+          },
+          "letter-spacing": {
+            "$type": "float",
+            "$value": -0.8
+          }
+        },
+        "sm": {
+          "size": {
+            "$type": "dimension",
+            "$value": "32px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "40px"
+          },
+          "letter-spacing": {
+            "$type": "float",
+            "$value": -0.32
+          }
+        }
+      },
+      "heading": {
+        "h1": {
+          "size": {
+            "$type": "dimension",
+            "$value": "28px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "35px"
+          },
+          "letter-spacing": {
+            "$type": "float",
+            "$value": -0.28
+          }
+        },
+        "h2": {
+          "size": {
+            "$type": "dimension",
+            "$value": "24px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "30px"
+          }
+        },
+        "h3": {
+          "size": {
+            "$type": "dimension",
+            "$value": "20px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "25px"
+          }
+        },
+        "h4": {
+          "size": {
+            "$type": "dimension",
+            "$value": "18px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "27px"
+          }
+        },
+        "h5": {
+          "size": {
+            "$type": "dimension",
+            "$value": "16px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "24px"
+          }
+        }
+      },
+      "body": {
+        "lg": {
+          "size": {
+            "$type": "dimension",
+            "$value": "18px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "30.6px"
+          }
+        },
+        "md": {
+          "size": {
+            "$type": "dimension",
+            "$value": "16px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "27.2px"
+          }
+        },
+        "sm": {
+          "size": {
+            "$type": "dimension",
+            "$value": "14px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "21px"
+          }
+        },
+        "xs": {
+          "size": {
+            "$type": "dimension",
+            "$value": "12px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "18px"
+          }
+        },
+        "lg-bold": {
+          "size": {
+            "$type": "dimension",
+            "$value": "18px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "30.6px"
+          }
+        },
+        "md-bold": {
+          "size": {
+            "$type": "dimension",
+            "$value": "16px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "27.2px"
+          }
+        },
+        "sm-bold": {
+          "size": {
+            "$type": "dimension",
+            "$value": "14px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "21px"
+          }
+        }
+      },
+      "label": {
+        "lg": {
+          "size": {
+            "$type": "dimension",
+            "$value": "16px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "20px"
+          },
+          "letter-spacing": {
+            "$type": "float",
+            "$value": 0.96
+          }
+        },
+        "md": {
+          "size": {
+            "$type": "dimension",
+            "$value": "14px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "17.5px"
+          },
+          "letter-spacing": {
+            "$type": "float",
+            "$value": 0.84
+          }
+        },
+        "sm": {
+          "size": {
+            "$type": "dimension",
+            "$value": "12px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "15px"
+          },
+          "letter-spacing": {
+            "$type": "float",
+            "$value": 0.72
+          }
+        },
+        "xs": {
+          "size": {
+            "$type": "dimension",
+            "$value": "10px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "12.5px"
+          },
+          "letter-spacing": {
+            "$type": "float",
+            "$value": 0.8
+          }
+        }
+      },
+      "overline": {
+        "lg": {
+          "size": {
+            "$type": "dimension",
+            "$value": "14px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "17.5px"
+          },
+          "letter-spacing": {
+            "$type": "float",
+            "$value": 1.68
+          }
+        },
+        "sm": {
+          "size": {
+            "$type": "dimension",
+            "$value": "12px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "15px"
+          },
+          "letter-spacing": {
+            "$type": "float",
+            "$value": 1.44
+          }
+        }
+      },
+      "code": {
+        "md": {
+          "size": {
+            "$type": "dimension",
+            "$value": "14px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "23.8px"
+          }
+        },
+        "sm": {
+          "size": {
+            "$type": "dimension",
+            "$value": "12px"
+          },
+          "line-height": {
+            "$type": "dimension",
+            "$value": "18px"
+          }
+        }
+      }
+    }
+  }
+}

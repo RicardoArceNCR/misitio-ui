@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+
+# figma-sync es tooling local: su salida se regenera contra un sitio corriendo
+figma-sync/node_modules/
+figma-sync/output/
+figma-sync/run-log.txt
+
+# build/ NO se ignora a proposito: se versiona para que el consumidor no
+# tenga que correr Python ni Style Dictionary para usar el paquete.

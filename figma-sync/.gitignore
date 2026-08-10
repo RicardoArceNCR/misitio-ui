@@ -1,0 +1,8 @@
+# output/ es la salida cruda del extractor (Fase 1) contra un DOM real en
+# un momento dado -- no aporta nada versionado, se regenera corriendo
+# `npm run extract`. token-map.json (Fase 0) SÍ se commitea a propósito,
+# mismo criterio que build/ en la raíz del paquete: es generado pero
+# reviewable, y detecta en el diff si un rename de token en Figma rompió
+# algo.
+output/
+run-log.txt

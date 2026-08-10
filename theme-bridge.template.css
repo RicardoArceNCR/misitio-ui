@@ -1,0 +1,204 @@
+/**
+ * ══════════════════════════════════════════════════════════════════════
+ * theme-bridge.template.css
+ * ══════════════════════════════════════════════════════════════════════
+ * ESTE es el archivo que se edita a mano — vive en la raíz de
+ * design-system/tokens/, junto a package.json, NO dentro de build/.
+ *
+ * `npm run build` lo copia a build/theme-bridge.css al final (ver el
+ * script "build" en package.json). build/ es 100% salida generada;
+ * nadie debería volver a tocar nada ahí directamente — incluido este
+ * archivo, que antes vivía por error dentro de build/ y se editaba
+ * a mano ahí, contradiciendo la propia regla del proyecto.
+ *
+ * Byte-idéntico entre proyecto principal y cliente (y cualquier otro
+ * consumidor del design system). Contiene:
+ *
+ *   1. @theme inline   → mapea tokens a namespaces de Tailwind v4
+ *   2. @theme          → breakpoints literales
+ *   3. :root           → API shadcn/ui en modo claro
+ *   4. .dark           → API shadcn/ui en modo oscuro
+ *
+ * Requiere que antes se haya importado:
+ *   @import "tailwindcss";
+ *   @import "tw-animate-css";
+ *   @custom-variant dark (&:is(.dark *));
+ * ══════════════════════════════════════════════════════════════════════
+ */
+
+/* Generado por Style Dictionary — ver style-dictionary.config.js
+   (platform "tailwindTypography") y format-tailwind-typography.js */
+@import "./theme-bridge-typography.generated.css";
+
+@theme inline {
+  --font-sans: var(--typography-family-body);
+  --font-display: var(--typography-family-display);
+  --font-mono: var(--typography-family-mono);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-tertiary: var(--text-tertiary);
+  --color-text-inverse: var(--text-inverse);
+  --color-text-on-brand: var(--text-on-brand);
+  --color-text-disabled: var(--text-disabled);
+  --color-input-label: var(--input-label);
+
+  --radius-xs: var(--radius-xs);
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+  --radius-2xl: var(--radius-2xl);
+  --radius-full: var(--radius-full);
+
+  --text-display-hero: var(--typography-styles-display-hero-size);
+  --text-display-xl: var(--typography-styles-display-xl-size);
+  --text-display-lg: var(--typography-styles-display-lg-size);
+  --text-display-md: var(--typography-styles-display-md-size);
+  --text-display-sm: var(--typography-styles-display-sm-size);
+  --text-h1: var(--typography-styles-heading-h1-size);
+  --text-h2: var(--typography-styles-heading-h2-size);
+  --text-h3: var(--typography-styles-heading-h3-size);
+  --text-h4: var(--typography-styles-heading-h4-size);
+  --text-h5: var(--typography-styles-heading-h5-size);
+  --text-body-xs: var(--typography-styles-body-xs-size);
+  --text-body-sm: var(--typography-styles-body-sm-size);
+  --text-body-md: var(--typography-styles-body-md-size);
+  --text-body-lg: var(--typography-styles-body-lg-size);
+  --text-label-xs: var(--typography-styles-label-xs-size);
+  --text-label-sm: var(--typography-styles-label-sm-size);
+  --text-label-md: var(--typography-styles-label-md-size);
+  --text-label-lg: var(--typography-styles-label-lg-size);
+  --text-overline-sm: var(--typography-styles-overline-sm-size);
+  --text-overline-lg: var(--typography-styles-overline-lg-size);
+  /* Los pares --text-*--line-height correspondientes ya NO se escriben
+     aquí a mano — ver theme-bridge-typography.generated.css, importado
+     al final de este archivo. Generado por Style Dictionary desde los
+     mismos tokens `typography-styles-*`, así que es imposible que quede
+     desincronizado o que alguien vuelva a escribir la coma inválida. */
+
+  --font-weight-regular: var(--typography-weight-regular);
+  --font-weight-medium: var(--typography-weight-medium);
+  --font-weight-semibold: var(--typography-weight-semibold);
+  --font-weight-bold: var(--typography-weight-bold);
+  --font-weight-extrabold: var(--typography-weight-extrabold);
+
+  --tracking-tight: var(--typography-tracking-tight);
+  --tracking-normal: var(--typography-tracking-normal);
+  --tracking-wide: var(--typography-tracking-wide);
+  --tracking-wider: var(--typography-tracking-wider);
+  --tracking-caps: var(--typography-tracking-caps);
+
+  --spacing-0: var(--spacing-0);
+  --spacing-1: var(--spacing-1);
+  --spacing-2: var(--spacing-2);
+  --spacing-3: var(--spacing-3);
+  --spacing-4: var(--spacing-4);
+  --spacing-5: var(--spacing-5);
+  --spacing-6: var(--spacing-6);
+  --spacing-8: var(--spacing-8);
+  --spacing-10: var(--spacing-10);
+  --spacing-12: var(--spacing-12);
+  --spacing-16: var(--spacing-16);
+  --spacing-20: var(--spacing-20);
+  --spacing-24: var(--spacing-24);
+
+  --duration-instant: var(--motion-duration-instant);
+  --duration-fast: var(--motion-duration-fast);
+  --duration-normal: var(--motion-duration-normal);
+  --duration-slow: var(--motion-duration-slow);
+  --duration-slower: var(--motion-duration-slower);
+
+  --ease-standard: var(--motion-easing-standard);
+  --ease-enter: var(--motion-easing-enter);
+  --ease-exit: var(--motion-easing-exit);
+  --ease-spring: var(--motion-easing-spring);
+}
+
+@theme {
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+}
+
+:root {
+  --background: var(--background-page);
+  --foreground: var(--text-primary);
+
+  --card: var(--surface-raised);
+  --card-foreground: var(--text-primary);
+
+  --popover: var(--surface-raised);
+  --popover-foreground: var(--text-primary);
+
+  --primary: var(--brand-main);
+  --primary-foreground: var(--text-on-brand);
+
+  --secondary: var(--surface-container);
+  --secondary-foreground: var(--text-primary);
+
+  --muted: var(--background-subtle);
+  --muted-foreground: var(--text-tertiary);
+
+  --accent: var(--brand-subtle);
+  --accent-foreground: var(--text-primary);
+
+  --destructive: var(--feedback-error-icon);
+  --destructive-foreground: var(--text-on-brand);
+
+  --border: var(--border-default);
+  --input: var(--input-border);
+  --ring: var(--focus-ring-color);
+}
+
+.dark {
+  --background: var(--background-page);
+  --foreground: var(--text-primary);
+
+  --card: var(--surface-raised);
+  --card-foreground: var(--text-primary);
+
+  --popover: var(--surface-raised);
+  --popover-foreground: var(--text-primary);
+
+  --primary: var(--brand-main);
+  --primary-foreground: var(--text-on-brand);
+
+  --secondary: var(--surface-container);
+  --secondary-foreground: var(--text-primary);
+
+  --muted: var(--background-subtle);
+  --muted-foreground: var(--text-tertiary);
+
+  --accent: var(--brand-subtle);
+  --accent-foreground: var(--text-primary);
+
+  --destructive: var(--feedback-error-icon);
+  --destructive-foreground: var(--text-on-brand);
+
+  --border: var(--border-default);
+  --input: var(--input-border);
+  --ring: var(--focus-ring-color);
+}

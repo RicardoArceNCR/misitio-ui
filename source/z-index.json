@@ -1,0 +1,28 @@
+{
+  "z-index": {
+    "dropdown": {
+      "$type": "float",
+      "$value": 1000
+    },
+    "sticky": {
+      "$type": "float",
+      "$value": 1020
+    },
+    "overlay": {
+      "$type": "float",
+      "$value": 1030
+    },
+    "modal": {
+      "$type": "float",
+      "$value": 1040
+    },
+    "toast": {
+      "$type": "float",
+      "$value": 1050
+    },
+    "tooltip": {
+      "$type": "float",
+      "$value": 1060
+    }
+  }
+}
