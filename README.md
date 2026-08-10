@@ -20,6 +20,12 @@ Migrar a GitHub Packages más adelante no cambia el código del consumidor,
 solo el origen — pero sí exige renombrar el paquete al scope del dueño
 (`@ricardoarcencr/…`), porque GitHub Packages no acepta otro.
 
+El campo `files` se respeta aun instalando por git: al consumidor le llega
+`build/`, el `README.md` y el `package.json`, no `source/` ni el pipeline
+(verificado instalando `v0.1.0` en un proyecto limpio). La frontera de ADR
+0011 — "un consumidor debe poder usar los tokens, no editarlos" — ya es
+real, no una convención documentada.
+
 Fijá siempre un tag. Sin tag, `pnpm` toma la rama por defecto y perdés el
 control de versión que es justamente el motivo de que esto sea un paquete.
 
@@ -111,11 +117,10 @@ No bloquea el uso, pero conviene no redescubrirla:
   en CSS es inválido. Preexistente y presente en claro y oscuro por igual,
   así que no es una regresión de este paquete. Están en la lista blanca del
   guardarrail hasta que se decida la unidad correcta (`em` o `px`) en Figma.
-- **La frontera "solo se publica `build/`" todavía no es real.** Con
-  instalación por tag de git, el consumidor clona el repo entero, así que
-  `source/` y el pipeline viajan con él. El campo `files` deja la intención
-  escrita y esa frontera se vuelve efectiva el día que se publique a un
-  registry.
+- **`build/tokens.js` viaja al consumidor sin que nadie lo use.** Son
+  187 KB de tokens en JS que ningún proyecto importa hoy. Sale del paquete
+  quitando la plataforma `js` de `style-dictionary.config.js`, pero eso es
+  una decisión sobre el pipeline y no se tomó acá.
 
 ## Qué sigue
 

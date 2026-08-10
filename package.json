@@ -1,6 +1,6 @@
 {
   "name": "@misitio/ui",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Design system compartido: tokens de Figma via Style Dictionary. Los componentes se agregan en una version posterior.",
   "license": "UNLICENSED",
   "private": false,
