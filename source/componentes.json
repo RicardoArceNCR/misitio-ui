@@ -134,6 +134,14 @@
         }
       }
     },
+    "font-weight": {
+      "$type": "float",
+      "$value": "{typography.weight.extrabold}"
+    },
+    "letter-spacing": {
+      "$type": "float",
+      "$value": "{typography.tracking.caps}"
+    },
     "radius": {
       "$type": "dimension",
       "$value": "{radius.full}"

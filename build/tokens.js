@@ -5324,6 +5324,38 @@ export default {
         },
       },
     },
+    "font-weight": {
+      $type: "float",
+      $value: 800,
+      filePath: "source/componentes.json",
+      isSource: true,
+      original: {
+        $type: "float",
+        $value: "{typography.weight.extrabold}",
+      },
+      name: "ButtonFontWeight",
+      attributes: {
+        category: "button",
+        type: "font-weight",
+      },
+      path: ["button", "font-weight"],
+    },
+    "letter-spacing": {
+      $type: "float",
+      $value: 0.12,
+      filePath: "source/componentes.json",
+      isSource: true,
+      original: {
+        $type: "float",
+        $value: "{typography.tracking.caps}",
+      },
+      name: "ButtonLetterSpacing",
+      attributes: {
+        category: "button",
+        type: "letter-spacing",
+      },
+      path: ["button", "letter-spacing"],
+    },
     radius: {
       $type: "dimension",
       $value: "9999px",

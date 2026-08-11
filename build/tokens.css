@@ -332,6 +332,8 @@
   --button-size-md-padding-x: var(--spacing-4);
   --button-size-lg-height: var(--spacing-12);
   --button-size-lg-padding-x: var(--spacing-6);
+  --button-font-weight: var(--typography-weight-extrabold);
+  --button-letter-spacing: var(--typography-tracking-caps);
   --button-radius: var(--radius-full);
   --input-radius: var(--radius-md);
   --input-padding-x: var(--spacing-4);

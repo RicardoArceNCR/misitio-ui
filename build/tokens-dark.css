@@ -108,6 +108,8 @@
   --divider-strong: var(--color-neutral-600);
   --button-primary-text: var(--color-neutral-900);
   --button-danger-bg-press: var(--color-accent-800);
+  --button-letter-spacing: var(--typography-tracking-caps);
+  --button-font-weight: var(--typography-weight-extrabold);
   --card-shadow: var(--shadow-sm-dark);
   --nav-bg: var(--color-neutral-950);
   --modal-shadow: var(--shadow-lg-dark);

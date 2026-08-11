@@ -137,6 +137,14 @@
     "radius": {
       "$type": "dimension",
       "$value": "9999px"
+    },
+    "letter-spacing": {
+      "$type": "float",
+      "$value": "{typography.tracking.caps}"
+    },
+    "font-weight": {
+      "$type": "float",
+      "$value": "{typography.weight.extrabold}"
     }
   },
   "input": {
