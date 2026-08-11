@@ -29,6 +29,33 @@ real, no una convención documentada.
 Fijá siempre un tag. Sin tag, `pnpm` toma la rama por defecto y perdés el
 control de versión que es justamente el motivo de que esto sea un paquete.
 
+## Desplegar un consumidor (Vercel o cualquier CI sin llaves SSH)
+
+`pnpm` resuelve `github:owner/repo#tag` con un `git clone` real —no un
+tarball por HTTPS— porque este paquete tiene script `prepare`. Ese clone
+usa por defecto URL SSH (`git@github.com:...`), que falla en cualquier
+entorno sin llave SSH configurada (Vercel, GitHub Actions, etc.) con `Host
+key verification failed: fatal: Could not read from remote repository`,
+**sin importar si el repo es público o privado**: el formato de URL no
+depende de la visibilidad.
+
+Encontrado en el primer deploy de `vper` (2026-08-11). Como este repo es
+público desde esa fecha, la solución no necesita ningún token: alcanza con
+reescribir la URL SSH a HTTPS antes de `pnpm install`. En el `vercel.json`
+del consumidor:
+
+```json
+{
+  "installCommand": "git config --global url.\"https://github.com/\".insteadOf \"git@github.com:\" && pnpm install"
+}
+```
+
+Copiá este `vercel.json` tal cual en cualquier proyecto nuevo que consuma
+este paquete, antes del primer deploy. (`misitio` resuelve lo mismo con un
+método más viejo, de cuando este repo todavía era privado —
+`MISITIO_UI_READ_TOKEN` + rewrite con token—, que sigue funcionando pero ya
+es más complejo de lo necesario; no es el método a copiar.)
+
 ## Orden de carga (contrato, no sugerencia)
 
 Los tres archivos van en este orden, en el `layout.tsx` raíz:
