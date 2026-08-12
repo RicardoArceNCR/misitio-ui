@@ -21,6 +21,15 @@ CAMBIOS v2 (ver docs/TOKENS_MIGRATION.md para el contexto completo):
   - needs_ms(): nuevo — motion.json trae duraciones como FLOAT (ms) que deben
     emitirse con unidad 'ms', igual que needs_px() hace con 'px'.
   - REQUIRED_TOKENS: se agregan checks mínimos para las colecciones nuevas.
+
+CAMBIOS 2026-08-11 (deuda de letter-spacing sin unidad, ver README §Deuda):
+  - needs_px(): typography/styles/*/letter-spacing se agrega junto a
+    size/line-height — esos valores ya vienen precalculados en píxeles
+    (fontSize × ratio) desde Figma, solo faltaba la unidad.
+  - needs_em(): nuevo — typography/tracking/* (tight/normal/wide/wider/caps)
+    es un ratio pensado para combinarse con cualquier font-size, así que la
+    unidad correcta es 'em' (relativa), no 'px' (absoluta). Antes salía
+    pelado y el navegador lo descartaba en silencio.
 """
 
 import json
@@ -476,7 +485,7 @@ def needs_px(path):
         return True
     if n >= 3 and p[0] == 'typography' and p[1] == 'size':
         return True
-    if n >= 4 and p[0] == 'typography' and p[1] == 'styles' and p[-1] in ('size', 'line-height'):
+    if n >= 4 and p[0] == 'typography' and p[1] == 'styles' and p[-1] in ('size', 'line-height', 'letter-spacing'):
         return True
     if n >= 3 and p[0] == 'button' and p[1] == 'text-size':
         return True
@@ -552,6 +561,25 @@ def needs_ms(path, collection_name):
     return n >= 2 and p[-2] == 'duration'
 
 
+# ─── Unidades: em ───────────────────────────────────────────────────────────────
+
+def needs_em(path):
+    """typography/tracking/* es un RATIO (ej. 0.12 = 12% del font-size), no un
+    píxel absoluto — a diferencia de typography/styles/*/letter-spacing, que ya
+    viene precalculado en píxeles desde Figma (fontSize × ratio). 'em' es la
+    unidad correcta porque ya es relativa al font-size del elemento, que es
+    justo lo que este ratio necesita: heredar el tamaño de quien lo consuma
+    (--typography-tracking-caps se usa igual en un botón de 14px que en un
+    label de 12px, y el espaciado real debe escalar con cada uno).
+
+    Antes de esta regla, el valor salía pelado (0.12), que es CSS inválido
+    para letter-spacing y el navegador lo descartaba en silencio — ver
+    --button-letter-spacing en button.tsx de misitio, que no tenía efecto
+    visual real hasta este fix."""
+    p, n = path, len(path)
+    return n >= 2 and p[0] == 'typography' and p[1] == 'tracking'
+
+
 def apply_units(node, collection_name, path=None):
     """
     Recorre el árbol de tokens convirtiendo floats que necesitan unidad CSS.
@@ -571,6 +599,8 @@ def apply_units(node, collection_name, path=None):
             unit = 'px'
         elif needs_ms(path, collection_name):
             unit = 'ms'
+        elif needs_em(path):
+            unit = 'em'
 
         if unit:
             val = node['$value']

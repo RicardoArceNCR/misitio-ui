@@ -139,15 +139,39 @@ No bloquea el uso, pero conviene no redescubrirla:
   que el render es idéntico, pero si alguien cambia `radius/xl` el modo
   claro se mueve y el oscuro se queda. El arreglo es del lado de Figma:
   hacer que la variable dark aliasee el primitivo.
-- **`letter-spacing` sin unidad.** `--typography-tracking-*` y
-  `--typography-styles-*-letter-spacing` salen como números pelados, lo que
-  en CSS es inválido. Preexistente y presente en claro y oscuro por igual,
-  así que no es una regresión de este paquete. Están en la lista blanca del
-  guardarrail hasta que se decida la unidad correcta (`em` o `px`) en Figma.
 - **`build/tokens.js` viaja al consumidor sin que nadie lo use.** Son
   187 KB de tokens en JS que ningún proyecto importa hoy. Sale del paquete
   quitando la plataforma `js` de `style-dictionary.config.js`, pero eso es
   una decisión sobre el pipeline y no se tomó acá.
+
+### Resuelto (v0.1.3, 2026-08-11): `letter-spacing` sin unidad
+
+`--typography-tracking-*` y `--typography-styles-*-letter-spacing` salían
+como números pelados (`0.12`, `-3.12`), inválido en CSS — el navegador lo
+descartaba en silencio. Confirmado en producción: `--button-letter-spacing`
+en `Button` de `misitio` no tenía ningún efecto visual por esto.
+
+Arreglado en el generador (`figma-to-sd.py`), no en la salida, dos unidades
+distintas según qué es cada token:
+
+- `typography/tracking/*` (tight/normal/wide/wider/caps) es un **ratio**
+  pensado para combinarse con cualquier font-size → unidad `em` (relativa,
+  ya escala con el tamaño de quien lo consuma).
+- `typography/styles/*/letter-spacing` (por estilo: hero, h1, label-lg…) ya
+  viene **precalculado en píxeles** desde Figma (fontSize × ratio) → unidad
+  `px`.
+
+Con esto, `--text-h1--letter-spacing` y equivalentes ya se generan en
+`theme-bridge-typography.generated.css` — antes se excluían a propósito
+porque mapear un número pelado hubiera sido el mismo bug otra vez. Cualquier
+clase `text-h1`, `text-display-*`, `text-label-*`, `text-overline-*` ahora
+aplica letter-spacing real, no solo tamaño y line-height.
+
+**Importante para consumidores que ya venían compensando esto a mano** (con
+`tracking-[Nem]` arbitrario en el componente, porque el token no hacía
+nada): verificar visualmente antes de actualizar el tag, por si ahora se
+suma el letter-spacing del token *más* el arbitrario que ya estaba puesto
+como parche.
 
 ## Qué sigue
 

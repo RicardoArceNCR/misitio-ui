@@ -1949,13 +1949,13 @@ export default {
     },
     tracking: {
       tight: {
-        $type: "float",
-        $value: -0.03,
+        $type: "dimension",
+        $value: "-0.03em",
         filePath: "source/primitivos.json",
         isSource: true,
         original: {
-          $type: "float",
-          $value: -0.03,
+          $type: "dimension",
+          $value: "-0.03em",
         },
         name: "TypographyTrackingTight",
         attributes: {
@@ -1966,13 +1966,13 @@ export default {
         path: ["typography", "tracking", "tight"],
       },
       normal: {
-        $type: "float",
-        $value: 0,
+        $type: "dimension",
+        $value: "0em",
         filePath: "source/primitivos.json",
         isSource: true,
         original: {
-          $type: "float",
-          $value: 0,
+          $type: "dimension",
+          $value: "0em",
         },
         name: "TypographyTrackingNormal",
         attributes: {
@@ -1983,13 +1983,13 @@ export default {
         path: ["typography", "tracking", "normal"],
       },
       wide: {
-        $type: "float",
-        $value: 0.06,
+        $type: "dimension",
+        $value: "0.06em",
         filePath: "source/primitivos.json",
         isSource: true,
         original: {
-          $type: "float",
-          $value: 0.06,
+          $type: "dimension",
+          $value: "0.06em",
         },
         name: "TypographyTrackingWide",
         attributes: {
@@ -2000,13 +2000,13 @@ export default {
         path: ["typography", "tracking", "wide"],
       },
       wider: {
-        $type: "float",
-        $value: 0.1,
+        $type: "dimension",
+        $value: "0.1em",
         filePath: "source/primitivos.json",
         isSource: true,
         original: {
-          $type: "float",
-          $value: 0.1,
+          $type: "dimension",
+          $value: "0.1em",
         },
         name: "TypographyTrackingWider",
         attributes: {
@@ -2017,13 +2017,13 @@ export default {
         path: ["typography", "tracking", "wider"],
       },
       caps: {
-        $type: "float",
-        $value: 0.12,
+        $type: "dimension",
+        $value: "0.12em",
         filePath: "source/primitivos.json",
         isSource: true,
         original: {
-          $type: "float",
-          $value: 0.12,
+          $type: "dimension",
+          $value: "0.12em",
         },
         name: "TypographyTrackingCaps",
         attributes: {
@@ -2224,13 +2224,13 @@ export default {
             path: ["typography", "styles", "display", "hero", "line-height"],
           },
           "letter-spacing": {
-            $type: "float",
-            $value: -3.12,
+            $type: "dimension",
+            $value: "-3.12px",
             filePath: "source/tipografia.json",
             isSource: true,
             original: {
-              $type: "float",
-              $value: -3.12,
+              $type: "dimension",
+              $value: "-3.12px",
             },
             name: "TypographyStylesDisplayHeroLetterSpacing",
             attributes: {
@@ -2283,13 +2283,13 @@ export default {
             path: ["typography", "styles", "display", "xl", "line-height"],
           },
           "letter-spacing": {
-            $type: "float",
-            $value: -1.92,
+            $type: "dimension",
+            $value: "-1.92px",
             filePath: "source/tipografia.json",
             isSource: true,
             original: {
-              $type: "float",
-              $value: -1.92,
+              $type: "dimension",
+              $value: "-1.92px",
             },
             name: "TypographyStylesDisplayXlLetterSpacing",
             attributes: {
@@ -2342,13 +2342,13 @@ export default {
             path: ["typography", "styles", "display", "lg", "line-height"],
           },
           "letter-spacing": {
-            $type: "float",
-            $value: -0.96,
+            $type: "dimension",
+            $value: "-0.96px",
             filePath: "source/tipografia.json",
             isSource: true,
             original: {
-              $type: "float",
-              $value: -0.96,
+              $type: "dimension",
+              $value: "-0.96px",
             },
             name: "TypographyStylesDisplayLgLetterSpacing",
             attributes: {
@@ -2401,13 +2401,13 @@ export default {
             path: ["typography", "styles", "display", "md", "line-height"],
           },
           "letter-spacing": {
-            $type: "float",
-            $value: -0.8,
+            $type: "dimension",
+            $value: "-0.8px",
             filePath: "source/tipografia.json",
             isSource: true,
             original: {
-              $type: "float",
-              $value: -0.8,
+              $type: "dimension",
+              $value: "-0.8px",
             },
             name: "TypographyStylesDisplayMdLetterSpacing",
             attributes: {
@@ -2460,13 +2460,13 @@ export default {
             path: ["typography", "styles", "display", "sm", "line-height"],
           },
           "letter-spacing": {
-            $type: "float",
-            $value: -0.32,
+            $type: "dimension",
+            $value: "-0.32px",
             filePath: "source/tipografia.json",
             isSource: true,
             original: {
-              $type: "float",
-              $value: -0.32,
+              $type: "dimension",
+              $value: "-0.32px",
             },
             name: "TypographyStylesDisplaySmLetterSpacing",
             attributes: {
@@ -2521,13 +2521,13 @@ export default {
             path: ["typography", "styles", "heading", "h1", "line-height"],
           },
           "letter-spacing": {
-            $type: "float",
-            $value: -0.28,
+            $type: "dimension",
+            $value: "-0.28px",
             filePath: "source/tipografia.json",
             isSource: true,
             original: {
-              $type: "float",
-              $value: -0.28,
+              $type: "dimension",
+              $value: "-0.28px",
             },
             name: "TypographyStylesHeadingH1LetterSpacing",
             attributes: {
@@ -3024,13 +3024,13 @@ export default {
             path: ["typography", "styles", "label", "lg", "line-height"],
           },
           "letter-spacing": {
-            $type: "float",
-            $value: 0.96,
+            $type: "dimension",
+            $value: "0.96px",
             filePath: "source/tipografia.json",
             isSource: true,
             original: {
-              $type: "float",
-              $value: 0.96,
+              $type: "dimension",
+              $value: "0.96px",
             },
             name: "TypographyStylesLabelLgLetterSpacing",
             attributes: {
@@ -3083,13 +3083,13 @@ export default {
             path: ["typography", "styles", "label", "md", "line-height"],
           },
           "letter-spacing": {
-            $type: "float",
-            $value: 0.84,
+            $type: "dimension",
+            $value: "0.84px",
             filePath: "source/tipografia.json",
             isSource: true,
             original: {
-              $type: "float",
-              $value: 0.84,
+              $type: "dimension",
+              $value: "0.84px",
             },
             name: "TypographyStylesLabelMdLetterSpacing",
             attributes: {
@@ -3142,13 +3142,13 @@ export default {
             path: ["typography", "styles", "label", "sm", "line-height"],
           },
           "letter-spacing": {
-            $type: "float",
-            $value: 0.72,
+            $type: "dimension",
+            $value: "0.72px",
             filePath: "source/tipografia.json",
             isSource: true,
             original: {
-              $type: "float",
-              $value: 0.72,
+              $type: "dimension",
+              $value: "0.72px",
             },
             name: "TypographyStylesLabelSmLetterSpacing",
             attributes: {
@@ -3201,13 +3201,13 @@ export default {
             path: ["typography", "styles", "label", "xs", "line-height"],
           },
           "letter-spacing": {
-            $type: "float",
-            $value: 0.8,
+            $type: "dimension",
+            $value: "0.8px",
             filePath: "source/tipografia.json",
             isSource: true,
             original: {
-              $type: "float",
-              $value: 0.8,
+              $type: "dimension",
+              $value: "0.8px",
             },
             name: "TypographyStylesLabelXsLetterSpacing",
             attributes: {
@@ -3262,13 +3262,13 @@ export default {
             path: ["typography", "styles", "overline", "lg", "line-height"],
           },
           "letter-spacing": {
-            $type: "float",
-            $value: 1.68,
+            $type: "dimension",
+            $value: "1.68px",
             filePath: "source/tipografia.json",
             isSource: true,
             original: {
-              $type: "float",
-              $value: 1.68,
+              $type: "dimension",
+              $value: "1.68px",
             },
             name: "TypographyStylesOverlineLgLetterSpacing",
             attributes: {
@@ -3321,13 +3321,13 @@ export default {
             path: ["typography", "styles", "overline", "sm", "line-height"],
           },
           "letter-spacing": {
-            $type: "float",
-            $value: 1.44,
+            $type: "dimension",
+            $value: "1.44px",
             filePath: "source/tipografia.json",
             isSource: true,
             original: {
-              $type: "float",
-              $value: 1.44,
+              $type: "dimension",
+              $value: "1.44px",
             },
             name: "TypographyStylesOverlineSmLetterSpacing",
             attributes: {
@@ -5342,7 +5342,7 @@ export default {
     },
     "letter-spacing": {
       $type: "float",
-      $value: 0.12,
+      $value: "0.12em",
       filePath: "source/componentes.json",
       isSource: true,
       original: {

@@ -478,24 +478,24 @@
     },
     "tracking": {
       "tight": {
-        "$type": "float",
-        "$value": -0.03
+        "$type": "dimension",
+        "$value": "-0.03em"
       },
       "normal": {
-        "$type": "float",
-        "$value": 0
+        "$type": "dimension",
+        "$value": "0em"
       },
       "wide": {
-        "$type": "float",
-        "$value": 0.06
+        "$type": "dimension",
+        "$value": "0.06em"
       },
       "wider": {
-        "$type": "float",
-        "$value": 0.1
+        "$type": "dimension",
+        "$value": "0.1em"
       },
       "caps": {
-        "$type": "float",
-        "$value": 0.12
+        "$type": "dimension",
+        "$value": "0.12em"
       }
     }
   },

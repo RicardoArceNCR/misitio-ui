@@ -53,13 +53,17 @@ module.exports = function tailwindTypographyBridgeFormat({ dictionary }) {
         `  --${utility}--line-height: var(--typography-styles-${family}-line-height);`,
       );
     }
-    // NOTA: no mapeamos letter-spacing aquí a propósito. Los tokens
-    // `typography-styles-*-letter-spacing` en tokens.css son números
-    // sin unidad (ej. -3.12, 0.84), y `letter-spacing` en CSS exige
-    // una unidad (px/em). Mapearlos tal cual generaría otro valor
-    // inválido silenciosamente descartado — el mismo tipo de bug que
-    // esto busca eliminar. Antes de automatizarlo, esos tokens fuente
-    // necesitan traer su unidad (ej. -3.12px o -0.03em) en tipografia.json.
+    // Hasta 2026-08-11 esto quedaba afuera a propósito: los tokens fuente
+    // salían sin unidad (ej. -3.12, no -3.12px), y letter-spacing sin
+    // unidad es CSS inválido — el navegador lo descarta en silencio.
+    // figma-to-sd.py ya les agrega 'px' (needs_px), así que ahora
+    // resuelven a un valor válido y se pueden emparejar igual que
+    // size/line-height.
+    if (tokens["letter-spacing"]) {
+      lines.push(
+        `  --${utility}--letter-spacing: var(--typography-styles-${family}-letter-spacing);`,
+      );
+    }
   }
 
   return `/* AUTO-GENERADO por format-tailwind-typography.js — no editar a mano */\n@theme inline {\n${lines.join("\n")}\n}\n`;

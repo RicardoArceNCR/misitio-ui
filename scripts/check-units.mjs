@@ -34,14 +34,6 @@ const ALLOW = [
     why: "theme-bridge.template.css los redefine con px en su bloque @theme",
   },
   {
-    re: /^--typography-tracking-/,
-    why: "preexistente: letter-spacing sin unidad. Ver DEUDA en README",
-  },
-  {
-    re: /^--typography-styles-.*-letter-spacing$/,
-    why: "preexistente: letter-spacing sin unidad. Ver DEUDA en README",
-  },
-  {
     re: /^--typography-(heading|subheading|body|label|caption|hero)-size$/,
     why: "preexistente: escala vieja, superada por --typography-styles-*. Ver DEUDA en README",
   },

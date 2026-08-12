@@ -2,16 +2,22 @@
 @theme inline {
   --text-display-hero: var(--typography-styles-display-hero-size);
   --text-display-hero--line-height: var(--typography-styles-display-hero-line-height);
+  --text-display-hero--letter-spacing: var(--typography-styles-display-hero-letter-spacing);
   --text-display-xl: var(--typography-styles-display-xl-size);
   --text-display-xl--line-height: var(--typography-styles-display-xl-line-height);
+  --text-display-xl--letter-spacing: var(--typography-styles-display-xl-letter-spacing);
   --text-display-lg: var(--typography-styles-display-lg-size);
   --text-display-lg--line-height: var(--typography-styles-display-lg-line-height);
+  --text-display-lg--letter-spacing: var(--typography-styles-display-lg-letter-spacing);
   --text-display-md: var(--typography-styles-display-md-size);
   --text-display-md--line-height: var(--typography-styles-display-md-line-height);
+  --text-display-md--letter-spacing: var(--typography-styles-display-md-letter-spacing);
   --text-display-sm: var(--typography-styles-display-sm-size);
   --text-display-sm--line-height: var(--typography-styles-display-sm-line-height);
+  --text-display-sm--letter-spacing: var(--typography-styles-display-sm-letter-spacing);
   --text-h1: var(--typography-styles-heading-h1-size);
   --text-h1--line-height: var(--typography-styles-heading-h1-line-height);
+  --text-h1--letter-spacing: var(--typography-styles-heading-h1-letter-spacing);
   --text-h2: var(--typography-styles-heading-h2-size);
   --text-h2--line-height: var(--typography-styles-heading-h2-line-height);
   --text-h3: var(--typography-styles-heading-h3-size);
@@ -36,14 +42,20 @@
   --text-body-sm-bold--line-height: var(--typography-styles-body-sm-bold-line-height);
   --text-label-lg: var(--typography-styles-label-lg-size);
   --text-label-lg--line-height: var(--typography-styles-label-lg-line-height);
+  --text-label-lg--letter-spacing: var(--typography-styles-label-lg-letter-spacing);
   --text-label-md: var(--typography-styles-label-md-size);
   --text-label-md--line-height: var(--typography-styles-label-md-line-height);
+  --text-label-md--letter-spacing: var(--typography-styles-label-md-letter-spacing);
   --text-label-sm: var(--typography-styles-label-sm-size);
   --text-label-sm--line-height: var(--typography-styles-label-sm-line-height);
+  --text-label-sm--letter-spacing: var(--typography-styles-label-sm-letter-spacing);
   --text-label-xs: var(--typography-styles-label-xs-size);
   --text-label-xs--line-height: var(--typography-styles-label-xs-line-height);
+  --text-label-xs--letter-spacing: var(--typography-styles-label-xs-letter-spacing);
   --text-overline-lg: var(--typography-styles-overline-lg-size);
   --text-overline-lg--line-height: var(--typography-styles-overline-lg-line-height);
+  --text-overline-lg--letter-spacing: var(--typography-styles-overline-lg-letter-spacing);
   --text-overline-sm: var(--typography-styles-overline-sm-size);
   --text-overline-sm--line-height: var(--typography-styles-overline-sm-line-height);
+  --text-overline-sm--letter-spacing: var(--typography-styles-overline-sm-letter-spacing);
 }
