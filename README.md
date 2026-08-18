@@ -58,15 +58,8 @@ es más complejo de lo necesario; no es el método a copiar.)
 
 ## Orden de carga (contrato, no sugerencia)
 
-Los tres archivos van en este orden, en el `layout.tsx` raíz:
-
-```tsx
-import "@misitio/ui/tokens.css";      // 1: :root (claro)
-import "@misitio/ui/tokens-dark.css"; // 2: .dark
-import "./globals.css";               // 3: tailwind + bridge
-```
-
-Y en `globals.css`:
+Los cuatro archivos van con `@import`, **dentro del CSS global**, en este
+orden:
 
 ```css
 @import "tailwindcss";
@@ -74,13 +67,55 @@ Y en `globals.css`:
 
 @custom-variant dark (&:is(.dark *));
 
-@import "@misitio/ui/theme-bridge.css";
+@import "@misitio/ui/tokens.css";      /* 1: primitivos + semánticos */
+@import "@misitio/ui/tokens-dark.css"; /* 2: overrides bajo .dark    */
+@import "@misitio/ui/theme-bridge.css";/* 3: mapeo a Tailwind v4     */
+@import "./brand.css";                 /* 4: marca de este cliente   */
 ```
 
-El orden no es arbitrario. `tokens-dark.css` sobreescribe bajo `.dark`, y
+Y el entry de JS (`layout.tsx` / `main.tsx`) importa **un solo** CSS:
+
+```tsx
+import "./globals.css";
+```
+
+El orden no es arbitrario. `tokens-dark.css` sobreescribe bajo `.dark`,
 `theme-bridge.css` mapea todo a los namespaces de Tailwind v4 (`@theme
-inline`) y a la API de shadcn/ui (`:root` / `.dark`). Alterarlo no rompe un
-componente suelto: rompe el theming completo.
+inline`) y a la API de shadcn/ui, y `brand.css` gana por ser el último.
+Alterarlo no rompe un componente suelto: rompe el theming completo.
+
+### Por qué NO se importan los tokens desde el entry de JS
+
+Este README prescribía hasta 2026-08-18 cargar `tokens.css` y
+`tokens-dark.css` como `import` de JS. Estaba mal, y el error es difícil
+de diagnosticar — vale dejarlo escrito.
+
+El CSS importado desde un módulo JS lo emite el bundler como **una hoja
+aparte**; el importado con `@import` desde otro CSS queda **dentro de la
+misma hoja**. Partir la cadena entre los dos mecanismos produce dos
+`<link>` cuyo orden relativo decide el bundler, no el código. Y el orden
+es lo único que hace funcionar a `brand.css`: la marca gana por
+**cascada**, no por especificidad — son `:root` contra `:root`.
+
+Medido en un build real de Next (`vper`, mismo commit, cambiando solo
+dónde se importan los CSS):
+
+| | hojas CSS emitidas | `<link>` en el HTML |
+|---|---|---|
+| Split JS/CSS (contrato viejo) | 2 | 2 |
+| Todo por `@import` | **1** | **1** |
+
+El síntoma en `vper` fue que los colores de marca se caían de forma
+intermitente en `dev` con HMR mientras producción se veía bien. Se
+"resolvió" durante una semana con `!important` en los once stops de la
+rampa neutral de su `brand.css`.
+
+**Regla que queda:** si `brand.css` necesita `!important` para ganar, el
+orden de carga está mal. No se agrega `!important`, se arregla la cadena.
+
+Vale para cualquier bundler: Vite tiene sus propias reglas de orden entre
+chunks de CSS, distintas de las de Next. El contrato de arriba no depende
+de ninguna.
 
 ## Pisar la marca del cliente
 

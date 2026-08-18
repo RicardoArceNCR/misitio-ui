@@ -68,8 +68,8 @@
   --text-brand: var(--color-accent-500);
   --text-on-brand: var(--color-white);
   --text-on-ink: var(--color-neutral-50);
-  --border-default: var(--color-neutral-800);
-  --border-subtle: var(--color-neutral-900);
+  --border-default: var(--color-neutral-700);
+  --border-subtle: var(--color-neutral-800);
   --border-strong: var(--color-neutral-600);
   --border-brand: var(--color-neutral-500);
   --border-inverse: var(--color-neutral-50);

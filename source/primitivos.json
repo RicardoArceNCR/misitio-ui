@@ -35,15 +35,15 @@
       },
       "800": {
         "$type": "color",
-        "$value": "#1a2830"
+        "$value": "#262524"
       },
       "900": {
         "$type": "color",
-        "$value": "#0d181e"
+        "$value": "#161615"
       },
       "950": {
         "$type": "color",
-        "$value": "#050b0e"
+        "$value": "#0a0a09"
       }
     },
     "white": {
