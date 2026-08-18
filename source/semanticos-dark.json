@@ -104,11 +104,11 @@
   "border": {
     "default": {
       "$type": "color",
-      "$value": "{color.neutral.800}"
+      "$value": "{color.neutral.700}"
     },
     "subtle": {
       "$type": "color",
-      "$value": "{color.neutral.900}"
+      "$value": "{color.neutral.800}"
     },
     "strong": {
       "$type": "color",
